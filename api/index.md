@@ -6,7 +6,7 @@ type: Concept, Reference
 
 api_url: http://api.test:5656/api/v1
 
-isTitle: true
+navbar: true
 
 #parseMe
 api_calls:

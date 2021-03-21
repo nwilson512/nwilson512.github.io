@@ -1,6 +1,6 @@
 ---
 title: Résumé
-isTitle: true
+navbar: true
 template: resume
 
 experience_section:

@@ -3,7 +3,7 @@ title: Writing samples
 fieldset: default
 mount: code_samples
 mount: samples
-isTitle: true
+navbar: true
 ---
 ## Writing samples
 
