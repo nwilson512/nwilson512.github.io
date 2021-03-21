@@ -7,10 +7,6 @@ type: concept
 navbar: true
 ---
 
-
-  {{# I've just discovered you can call global variables in collections. it's awesome. This is a cornerstone of documentation writing. in any collection, simply add {{ noparse }}{{ global:parameter_name }}{{ /noparse }} #}}
-
-
 ## My Documentation Process
 
 Much like developing a product, writing documentation moves through distinct phases. Adhere to these, and you set yourself up for success. The following phases summarize my understanding of an ideal documentation process:

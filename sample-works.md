@@ -1,8 +1,8 @@
 ---
-title: Writing samples
-fieldset: default
+title: Sample works
 mount: code_samples
 mount: samples
+navbar: true
 ---
 ## Writing samples
 
@@ -11,13 +11,6 @@ mount: samples
   <li>
     <a href="{{ url }}">{{ title }}</a>
   </li>
-<!-- *	install tailwind CSS on statamic
-*	install statamic on a google cloud platform
-*	install grav dev environment
-*	install grav on google cloud platform
-*	solve a problem set
-*	program a board game
-*	configure a feed -->
 {{ /collection:samples }}
 </ul>
 ## Code samples

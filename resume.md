@@ -1,7 +1,13 @@
 ---
 title: Résumé
 navbar: true
-template: resume
+layout: resume
+
+
+test_section:
+  foo: sect 1
+  foo: sect 2
+  foo: sect 3
 
 experience_section:
   experience_section_name: Experience
@@ -201,3 +207,5 @@ Once I've hardcoded it, I'll migrate the template date into page frontmatter
 Once I've got the page frontmatter migrated, I'll finish the fieldset
 
  #}}
+
+ This page is being rebuilt, check back later.
