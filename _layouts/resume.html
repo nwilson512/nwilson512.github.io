@@ -7,29 +7,35 @@ layout: default
   <code>pages from="/resume"</code> <!-- pulls frontmatter fields from the resume page -->
   <div class="flex"> <!-- wraps entire experience section -->
     <code> experience_section for loop </code> <!-- iterate through the 'experience_section' multidimensional array -->
-    <h2 class="mr-12"> experience_section_name </h2> <!-- draw the experience section name at this level of the array -->
+    <h2 class="mr-12">{{ site.data.resumeconfig.experience_section.experience_section_name }}</h2> <!-- draw the experience section name at this level of the array -->
     <div class=""> <!-- wraps all experience listings -->
        <code>subsection for loop</code>
+       {% for item in site.data.resumeconfig.experience_section.subsection %}
       <div class="content"> <!-- wraps each company -->
-        <h3> subsection_name </h3>
+        <h3> {{ item.subsection_name }}</h3>
         <div class=""> <!-- wraps each job -->
-          <h4> job_title </h4>
-          <p> tenure </p>
+          <h4> {{ item.job_title}} </h4>
+          <p> {{ item.tenure}} </p>
           <code> focus_area for loop </code>
+          {% for entry in item.focus_area %}
           <div class=""> <!-- wraps each experience subsection -->
-            <h4> focus_area_name </h4>
+            <h4>{{ entry.focus_area_name }}</h4>
             <ul>
               <code> focus_area_list for loop</code>
+              {% for value in entry.focus_area_list %}
               <li>
-                value
+                {{ value }}
               </li>
               <code> end focus_area_list for loop</code>
+              {% endfor %}
             </ul>
         </div> <!-- wraps each experience subsection -->
         <code> end focus_area for loop</code>
+        {% endfor %}
       </div> <!-- wraps each job -->
     </div> <!-- wraps each company -->
     <code> end subsection for loop</code>
+    {% endfor %}
 </div> <!--wraps all experience listings-->
 <code> end experience section for loop</code>
 
