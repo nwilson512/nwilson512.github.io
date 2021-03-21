@@ -1,6 +1,6 @@
 ---
 title: Résumé
-fieldset: default
+isTitle: true
 template: resume
 
 experience_section:
