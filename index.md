@@ -5,8 +5,6 @@
 layout: home
 ---
 
-## Nathaniel Wilson
-
 _Experienced software technical writer_
 
 ### Under construction

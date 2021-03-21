@@ -1,0 +1,82 @@
+<div class="container">
+    {{ content }}
+
+    <h2>API Reference</h2>
+    <div class="mt-6"> <!-- wrap reference cards section -->
+    {{ api_calls }}
+      <div class="border border-solid border-color-black mb-6 rounded-b-lg"> <!-- wrap each endpoint -->
+      <strong class="p-6">{{ endpoint }}</strong>
+      {{ data }}
+        <div class="mt-6"> <!-- wrap individual endpoint data -->
+          <ul class="list-reset ml-6 mb-6">
+            <li>
+              method: <code>{{ method }}</code>
+            </li>
+            <li>
+              parameters: <code>{{ parameters }}</code>
+            </li>
+            <li>
+              description: {{ description }}
+            </li>
+          </ul>
+          <div class="mt-6 p-6 bg-black text-grey-lighter font-mono rounded-b-lg"> <!-- curl exmaples -->
+            {{ example }}
+          </div> <!-- curl examples -->
+        </div> <!-- wrap individual endpoint data -->
+      {{ /data }}
+      </div> <!-- wrap each endpoint -->
+    {{ /api_calls }}
+    </div> <!-- wrap reference cards section -->
+    <div> <!-- note div -->
+      <pre>
+        This documentation is automated, find out how I did it.
+
+        I first had to choose a CMS I knew I would support content modularity and automation.
+
+        Then, I had to ensure that my API was written in a such a way as to support documentation automation.
+
+        Then, I had to develop a script that would fetch data from my API and update my site.
+
+        Then, I had to program the CMS in such a way as it would draw the API data from the frontmatter dynamically
+      </pre>
+    </div>
+
+    <h3>Form test</h3>
+    <form action="http://api.test:5656/api/v1/players/" method="get">
+      get all players
+      <input type="submit" name="submit" value="submit"/>
+    </form>
+    <form action="http://api.test:5656/api/v1/players/" method="post">
+      create a player
+      <input type="text" name="name">
+      <input type="submit" name="submit" value="submit"/>
+    </form>
+    <form id="getName" onsubmit="concatMe()" method="get">
+      fetch a specific player's information
+      <input id="nameCat" type="text" name="playerId">
+      <input type="submit" name="submit" value="submit"/>
+      <script>
+        function concatMe() {
+          var action = "http://api.test:5656/api/v1/players/" + document.getElementById('nameCat').value;
+          var form = document.getElementById('getName');
+          form.action = action;
+        }
+      </script>
+    </form>
+    <form id="getName" onsubmit="concatMe()">
+      DOESN'T SUPPORT PUT update a specific player's name <br/>
+      player id: <input id="nameCat" type="text" name="playerId">
+      player name: <input type="text" name="name">
+      <input type="submit" name="submit" value="submit"/>
+      <script>
+        function concatMe() {
+          var action = "http://api.test:5656/api/v1/players/" + document.getElementById('nameCat').value;
+          var form = document.getElementById('getName');
+          form.action = action;
+        }
+      </script>
+    </form>
+
+
+    {{ partial:feedback }}
+</div>

@@ -1,0 +1,89 @@
+<div class="container">
+    <h1>{{ title }}</h1> <!-- pulls page title -->
+    {{ content }} <!-- draws all page content after the frontmatter -->
+    {{ pages from="/resume"}} <!-- pulls frontmatter fields from the resume page -->
+    <div class="flex"> <!-- wraps entire experience section -->
+      {{ experience_section }} <!-- iterate through the 'experience_section' multidimensional array -->
+      <h2 class="mr-12">{{ experience_section_name }}</h2> <!-- draw the experience section name at this level of the array -->
+      <div class=""> <!-- wraps all experience listings -->
+        {{ subsection }}
+        <div class="content"> <!-- wraps each company -->
+          <h3>{{ subsection_name }}</h3>
+          <div class=""> <!-- wraps each job -->
+            <h4>{{ job_title }}</h4>
+            <p>{{ tenure }}</p>
+            {{ focus_area }}
+            <div class=""> <!-- wraps each experience subsection -->
+              <h4>{{ focus_area_name }}</h4>
+              <ul>
+                {{ focus_area_list }}
+                <li>
+                  {{ value }}
+                </li>
+                {{ /focus_area_list }}
+              </ul>
+          </div> <!-- wraps each experience subsection -->
+          {{ /focus_area }}
+        </div> <!-- wraps each job -->
+      </div> <!-- wraps each company -->
+      {{ /subsection }}
+  </div> <!--wraps all experience listings-->
+  {{ /experience_section }}
+
+</div> <!-- wraps entire experience section -->
+
+<div class="flex"> <!-- wraps all of education -->
+
+  {{ education_section }}
+  <h2 class="mr-12">{{ education_section_name }}</h2>
+  <div class=""> <!-- wraps all education listings -->
+    {{ subsection }}
+    <div class="content"> <!-- wraps whole university listing -->
+      <h3>{{ subsection_name }}</h3>
+      <div class="">
+        <h4>{{ degree_name }}</h4>
+        <p>{{ graduation_date }}</p>
+      </div> <!-- wraps all roles under company, including job/employment dates -->
+    </div> <!-- wraps whole university listing -->
+    {{ /subsection }}
+  </div> <!-- wraps all education listings -->
+  {{ /education_section }}
+
+</div> <!-- wraps all of education -->
+
+<div class="flex"> <!-- wraps all of skills -->
+  {{# tap into the resume page frontmatter, move this over the whole page when all content is YAMLized #}}
+
+    {{# iterate through the 'sections' multidimensional array #}}
+    {{ skills_section }}
+      {{# draw the section name at this level of the array #}}
+      <h2 class="mr-12">{{ skills_section_name }}</h2>
+      <div class=""> <!-- wraps all skills listings -->
+      {{# iterate through the 'subsection' level of the multidimensional array #}}
+      {{ subsection }}
+      <div class="content"> <!-- wraps single skill type -->
+        {{# draw the subsection name at this level of the multidimensional array #}}
+        <h3>{{ subsection_name }}</h3>
+        {{# iterate through the subsection list #}}
+        {{ subsection_list }}
+          <div class="">
+            <ul>
+              <li>
+                {{# draw the list values of the subsection list #}}
+                {{ value }}
+              </li>
+            </ul>
+          </div>
+        {{ /subsection_list}}
+      </div> <!-- wraps single skill type -->
+      {{ /subsection }}
+      </div> <!-- wraps all skills listings -->
+    {{ /skills_section }}
+
+</div> <!-- wraps all of skills -->
+
+{{# Document Description:
+This template provides the look and feel for the resume page. It requires the presence of a properly configured index.md page under the resume directory in order to function correctly.
+ #}}
+    {{ /pages }} <!-- stops pulling frontmatter fields from the resume page -->
+</div>

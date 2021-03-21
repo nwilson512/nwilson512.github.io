@@ -1,0 +1,94 @@
+<div class="feedbackForm">
+  <div class="inForm">
+  <h3>Was this page helpful?</h3>
+  <div id="formItself" class="formItself">
+  {{ form:create in="feedback" attr="id:feedback"}}
+    {{ fields }}
+      {{ if type == "hidden"}}
+      <input type="hidden" name="page" value="{{ url }}" />
+      {{ /if }}
+      {{ if type == "submit"}}
+      <button id="{{ name }}"
+      name="{{ name }}"
+      value="{{ value }}"
+      onclick="{{ function }}"
+      class="{{ if name == "like" }}likeButton{{ elseif name == "dislike" }}dislikeButton{{ /if }}"
+      ></button>
+      {{ /if }}
+    {{ /fields }}
+  {{ /form:create }}
+  </div>
+  <div id="yes" class="like hidden">
+    <p class="">Thanks! I'm glad this was helpful.</p>
+  </div>
+  <div id ="no" class="dislike hidden">
+    <p class="">Sorry! I'll try harder next time.</p>
+  </div>
+  </div>
+</div>
+
+<!--  This partial builds a feedback form wherever it is injected.
+  It uses YAML data from the "feedback.yaml" formset to draw the form. -->
+
+<script>
+// jquery is still a big fat bust, so I'm back to js
+
+// call this function when the document is fully loaded
+const form = document.getElementById('feedback');
+
+form.onsubmit = submit;
+
+function submit(event) {
+
+  event.preventDefault();
+  // create a new http request object
+  var request = new XMLHttpRequest();
+
+
+  // var data = getAll(event);
+  // open the form URL using the POST method, I'll hardcode this for now
+  request.open("post", "/!/Form/create");
+  // console.log(request);
+  // console.log(event);
+  //
+  // request.onload = function() {
+  //   console.log(request.readyState);
+  //   if (this.status == 400) {
+  //     console.log('forbidden');
+  //   }
+  //   if (this.status == 200) {
+  //     console.log('good request');
+  //   }
+  // }
+  // request.onerror = function() {
+  //   console.log("error");
+  // }
+
+  // send the request
+  // these do the same thing
+  // request.send(document.getElementById("feedback"));
+  request.send(new FormData(event.target));
+}
+
+function yes() {
+  // select the div we want to show
+  document.getElementById("yes").className="shown";
+  document.getElementById("formItself").className="hidden";
+}
+
+// declare a function to fire when the user clicks the like or dislike button
+function no() {
+  // select the div we want to show
+  document.getElementById("no").className="shown";
+  document.getElementById("formItself").className="hidden";
+}
+
+// spec:
+// [ ] collect feedback on documents
+// [ ] feedback tool should take up minimal space
+// [ ] tool should use CSS animations only
+// [ ] tool should not use jquery
+// [ ] tool should hide and show elements based on user response
+// [ ] tool should require as little interaction as possible
+//        consider combining like/dislike button press with submission
+</script>

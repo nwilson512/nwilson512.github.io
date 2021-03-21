@@ -1,0 +1,22 @@
+<nav class="mainNav">
+  <div class="nameNav">
+    <a class="siteNameNav" href="/">{{ site_name }}</a>
+    <button id="hamburger" onclick="toggleMenu()"></button>
+  </div>
+  <div id="navContentToggle" class="navContent">
+    <ul class="navList">
+        {{ nav from="/" include_home="false" scope="tag" }}
+            <li class="navListItem">
+                <a class="{{ if is_current || is_parent }}active{{ else }}inactive{{ /if }} hover:text-black hover:no-underline" href="{{ url }}">{{ tag:nav_title or title }}
+                </a>
+            </li>
+        {{ /nav }}
+    </ul>
+  </div>
+</nav>
+
+<script>
+  function toggleMenu() {
+    document.getElementById("navContentToggle").classList.toggle("navShow");
+  }
+</script>
