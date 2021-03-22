@@ -4,91 +4,70 @@ layout: default
 <div class="container">
   <h1>{{ page.title }}</h1> <!-- pulls page title -->
   {{ content }} <!-- draws all page content after the frontmatter -->
-  <code>pages from="/resume"</code> <!-- pulls frontmatter fields from the resume page -->
   <div class="flex"> <!-- wraps entire experience section -->
-    <code> experience_section for loop </code> <!-- iterate through the 'experience_section' multidimensional array -->
+    <!-- iterate through the 'experience_section' multidimensional array -->
     <h2 class="mr-12">{{ site.data.resumeconfig.experience_section.experience_section_name }}</h2> <!-- draw the experience section name at this level of the array -->
     <div class=""> <!-- wraps all experience listings -->
-       <code>subsection for loop</code>
        {% for item in site.data.resumeconfig.experience_section.subsection %}
       <div class="content"> <!-- wraps each company -->
         <h3> {{ item.subsection_name }}</h3>
         <div class=""> <!-- wraps each job -->
           <h4> {{ item.job_title}} </h4>
           <p> {{ item.tenure}} </p>
-          <code> focus_area for loop </code>
           {% for entry in item.focus_area %}
           <div class=""> <!-- wraps each experience subsection -->
             <h4>{{ entry.focus_area_name }}</h4>
             <ul>
-              <code> focus_area_list for loop</code>
               {% for value in entry.focus_area_list %}
               <li>
                 {{ value }}
               </li>
-              <code> end focus_area_list for loop</code>
               {% endfor %}
             </ul>
         </div> <!-- wraps each experience subsection -->
-        <code> end focus_area for loop</code>
         {% endfor %}
       </div> <!-- wraps each job -->
     </div> <!-- wraps each company -->
-    <code> end subsection for loop</code>
     {% endfor %}
 </div> <!--wraps all experience listings-->
-<code> end experience section for loop</code>
 
 </div> <!-- wraps entire experience section -->
 
 <div class="flex"> <!-- wraps all of education -->
-
-{{ education_section }}
-<h2 class="mr-12">{{ education_section_name }}</h2>
-<div class=""> <!-- wraps all education listings -->
-  {{ subsection }}
-  <div class="content"> <!-- wraps whole university listing -->
-    <h3>{{ subsection_name }}</h3>
-    <div class="">
-      <h4>{{ degree_name }}</h4>
-      <p>{{ graduation_date }}</p>
-    </div> <!-- wraps all roles under company, including job/employment dates -->
-  </div> <!-- wraps whole university listing -->
-  {{ /subsection }}
-</div> <!-- wraps all education listings -->
-{{ /education_section }}
-
+  <h2 class="mr-12">{{ site.data.resumeconfig.education_section.education_section_name }}</h2>
+  <div class=""> <!-- wraps all education listings -->
+    {% for item in site.data.resumeconfig.education_section.subsection %}
+    <div class="content"> <!-- wraps whole university listing -->
+      <h3>{{ item.subsection_name }}</h3>
+      <div class="">
+        <h4>{{ item.degree_name }}</h4>
+        <p>{{ item.graduation_date }}</p>
+      </div> <!-- wraps all roles under company, including job/employment dates -->
+    </div> <!-- wraps whole university listing -->
+    {% endfor %}
+  </div> <!-- wraps all education listings -->
 </div> <!-- wraps all of education -->
 
 <div class="flex"> <!-- wraps all of skills -->
-{{# tap into the resume page frontmatter, move this over the whole page when all content is YAMLized #}}
-
-  {{# iterate through the 'sections' multidimensional array #}}
-  {{ skills_section }}
-    {{# draw the section name at this level of the array #}}
-    <h2 class="mr-12">{{ skills_section_name }}</h2>
-    <div class=""> <!-- wraps all skills listings -->
-    {{# iterate through the 'subsection' level of the multidimensional array #}}
-    {{ subsection }}
+  <h2 class="mr-12">{{ site.data.resumeconfig.skills_section.skills_section_name }}</h2>
+  <div class=""> <!-- wraps all skills listings -->
+    {% for item in site.data.resumeconfig.skills_section.subsection %}
     <div class="content"> <!-- wraps single skill type -->
-      {{# draw the subsection name at this level of the multidimensional array #}}
-      <h3>{{ subsection_name }}</h3>
-      {{# iterate through the subsection list #}}
-      {{ subsection_list }}
+      <h3>{{ item.subsection_name }}</h3>
+      <!-- iterate through the subsection list -->
+      {% for value in item.subsection_list %}
         <div class="">
           <ul>
             <li>
-              {{# draw the list values of the subsection list #}}
+              <!-- draw the list values of the subsection list -->
               {{ value }}
             </li>
           </ul>
         </div>
-      {{ /subsection_list}}
+      {% endfor %}
     </div> <!-- wraps single skill type -->
-    {{ /subsection }}
-    </div> <!-- wraps all skills listings -->
-  {{ /skills_section }}
-
+    {% endfor %}
+  </div> <!-- wraps all skills listings -->
 </div> <!-- wraps all of skills -->
 
 {{# Document Description:
