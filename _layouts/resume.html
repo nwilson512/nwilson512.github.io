@@ -54,17 +54,17 @@ layout: default
     {% for item in site.data.resumeconfig.skills_section.subsection %}
     <div class="content"> <!-- wraps single skill type -->
       <h3>{{ item.subsection_name }}</h3>
-      <!-- iterate through the subsection list -->
-      {% for value in item.subsection_list %}
         <div class="">
           <ul>
+            <!-- iterate through the subsection list -->
+            {% for value in item.subsection_list %}
             <li>
               <!-- draw the list values of the subsection list -->
               {{ value }}
             </li>
+            {% endfor %}
           </ul>
         </div>
-      {% endfor %}
     </div> <!-- wraps single skill type -->
     {% endfor %}
   </div> <!-- wraps all skills listings -->
