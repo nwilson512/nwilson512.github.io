@@ -1,0 +1,36 @@
+---
+layout: default
+---
+
+<!-- <div class="container"> -->
+    {{ content }}
+
+    <h2>API Reference</h2>
+    <div class="mt-6"> <!-- wrap reference cards section -->
+    {% for item in page.api_calls %}
+      <div class="border border-solid border-color-black mb-6 rounded-b-lg"> <!-- wrap each endpoint -->
+      <strong class="p-6">{{ item.endpoint }}</strong>
+      {% for entry in item.data %}
+        <div class="mt-6"> <!-- wrap individual endpoint data -->
+          <ul class="list-reset ml-6 mb-6">
+            <li>
+              method: <code>{{ entry.method }}</code>
+            </li>
+            <li>
+              parameters: <code>{{ entry.parameters }}</code>
+            </li>
+            <li>
+              description: {{ entry.description }}
+            </li>
+          </ul>
+          <div class="mt-6 p-6 bg-black text-grey-lighter font-mono rounded-b-lg"> <!-- curl exmaples -->
+            {{ entry.example }}
+          </div> <!-- curl examples -->
+        </div> <!-- wrap individual endpoint data -->
+      {% endfor %}
+      </div> <!-- wrap each endpoint -->
+    {% endfor %}
+    </div> <!-- wrap reference cards section -->
+
+    {{ partial:feedback }}
+</div>

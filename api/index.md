@@ -1,6 +1,6 @@
 ---
 title: API
-template: api
+layout: api
 
 type: Concept, Reference
 
@@ -11,16 +11,16 @@ navbar: true
 #parseMe
 api_calls:
 - data:
-    description: The root endpoint, returns connection info
-    example: curl -X GET http://techwriting.info/rpsapi/v1/
-    method: GET
-    parameters: NONE
+    - description: The root endpoint, returns connection info
+      example: curl -X GET http://techwriting.info/rpsapi/v1/
+      method: GET
+      parameters: NONE
   endpoint: /
 - data:
-    description: Returns this documentation
-    example: curl -X GET http://techwriting.info/rpsapi/v1/docs
-    method: GET
-    parameters: NONE
+    - description: Returns this documentation
+      example: curl -X GET http://techwriting.info/rpsapi/v1/docs
+      method: GET
+      parameters: NONE
   endpoint: /docs
 - data:
   - description: Fetch a list of all players stored in the database.

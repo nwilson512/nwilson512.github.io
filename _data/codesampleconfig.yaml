@@ -12,7 +12,7 @@ toc:
       - page: Resize
         link: /code-samples/resize
       - page: Viginere
-        link: /code-samples/
+        link: /code-samples/viginere
   - title: Example code from this website
     pages:
       - page: API documentation automation script
