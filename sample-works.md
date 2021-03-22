@@ -6,7 +6,7 @@ navbar: true
 ---
 ## Writing samples
 
-<ul>
+<ol>
 {% for item in site.data.writingsampleconfig.toc %}
   <h3>{{item.title}}</h3>
   {% for entry in item.pages %}
@@ -15,7 +15,7 @@ navbar: true
   </li>
   {% endfor %}
 {% endfor %}
-</ul>
+</ol>
 
 ## Code samples
 
@@ -32,7 +32,7 @@ navbar: true
 
 ## Doc sets I've worked on
 
-* [Portworx](https://docs.portworx.com)
-* [Vertica](https://www.vertica.com/documentation/vertica/)
-* [Celtra private documentation](http://support.celtra.com)
-* [Red Hat 3scale SaaS, 2.0, 2.1, 2.2](https://access.redhat.com/documentation/en-us/red_hat_3scale_api_management/2.2/)
+* [Portworx (2.1 - Present)](https://docs.portworx.com)
+* [Vertica (7.X)](https://www.vertica.com/documentation/vertica/)
+* [Celtra (private documentation)](http://support.celtra.com)
+* [Red Hat 3scale (SaaS, 2.0, 2.1, 2.2)](https://access.redhat.com/documentation/en-us/red_hat_3scale_api_management/2.2/)
