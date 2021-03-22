@@ -3,13 +3,19 @@ toc:
     pages:
       - page: Caesar
         link: /code-samples/caesar
-      - page: 
+      - page: Find
+        link: /code-samples/find
+      - page: Greedy
+        link: /code-samples/greedy
+      - page: Recover
+        link: /code-samples/recover
+      - page: Resize
+        link: /code-samples/resize
+      - page: Viginere
         link: /code-samples/
-      - page: 
-        link: /code-samples/
-      - page: 
-        link: /code-samples/
-      - page: 
-        link: /code-samples/
-      - page: 
-        link: /code-samples/
+  - title: Example code from this website
+    pages:
+      - page: API documentation automation script
+        link: /code-samples/api-documentation-automation
+      - page: Rock paper scissors API
+        link: /code-samples/api-documentation-automation
