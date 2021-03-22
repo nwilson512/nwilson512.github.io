@@ -7,20 +7,27 @@ navbar: true
 ## Writing samples
 
 <ul>
-{{ collection:samples }}
+{% for item in site.data.writingsampleconfig.toc %}
+  <h3>{{item.title}}</h3>
+  {% for entry in item.pages %}
   <li>
-    <a href="{{ url }}">{{ title }}</a>
+    <a href="{{ entry.link }}">{{ entry.page }}</a>
   </li>
-{{ /collection:samples }}
+  {% endfor %}
+{% endfor %}
 </ul>
+
 ## Code samples
 
 <ul>
-{{ collection:code_samples }}
+{% for item in site.data.codesampleconfig.toc %}
+  <h3>{{item.title}}</h3>
+  {% for entry in item.pages %}
   <li>
-    <a href="{{ url }}">{{ title }}</a>
+    <a href="{{ entry.link }}">{{ entry.page }}</a>
   </li>
-{{ /collection:code_samples }}
+  {% endfor %}
+{% endfor %}
 </ul>
 
 ## Doc sets I've worked on

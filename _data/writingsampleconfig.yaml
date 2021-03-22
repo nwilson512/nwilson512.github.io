@@ -1,0 +1,19 @@
+toc:
+  - title: Deploy a static website on Google Cloud Platform
+    pages:
+      - page: Create a Statamic website on Google Cloud Platform
+        link: /writing-samples/create-a-statamic-web-server-on-google-cloud-platform
+      - page: Create a Google Cloud Platform Compute Engine instance
+        link: /writing-samples/create-a-google-cloud-platform-compute-engine-instance
+      - page: Create a key and add it to GCP
+        link: /writing-samples/create-a-key-and-add-it-to-gcp
+      - page: Install web server dependencies
+        link: /writing-samples/install-web-server-dependencies
+      - page: Add GitHub access to your VM
+        link: /writing-samples/add-github-access-to-your-vm
+      - page: Clone your repository into your web server
+        link: /writing-samples/clone-your-repository-into-your-web-server
+      - page: Configure Apache
+        link: /writing-samples/configure-apache
+      - page: Create a new virtual host configuration
+        link: /writing-samples/create-a-new-virtual-host-configuration
