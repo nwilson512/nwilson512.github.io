@@ -9,7 +9,7 @@ layout: default
     <h2 class="mr-12">{{ site.data.resumeconfig.experience_section.experience_section_name }}</h2> <!-- draw the experience section name at this level of the array -->
     <div class=""> <!-- wraps all experience listings -->
        {% for item in site.data.resumeconfig.experience_section.subsection %}
-      <div class="content"> <!-- wraps each company -->
+      <div class="resume-section-content"> <!-- wraps each company -->
         <h3> {{ item.subsection_name }}</h3>
         <div class=""> <!-- wraps each job -->
           <h4> {{ item.job_title}} </h4>
@@ -37,7 +37,7 @@ layout: default
   <h2 class="mr-12">{{ site.data.resumeconfig.education_section.education_section_name }}</h2>
   <div class=""> <!-- wraps all education listings -->
     {% for item in site.data.resumeconfig.education_section.subsection %}
-    <div class="content"> <!-- wraps whole university listing -->
+    <div class="resume-section-content"> <!-- wraps whole university listing -->
       <h3>{{ item.subsection_name }}</h3>
       <div class="">
         <h4>{{ item.degree_name }}</h4>
@@ -52,7 +52,7 @@ layout: default
   <h2 class="mr-12">{{ site.data.resumeconfig.skills_section.skills_section_name }}</h2>
   <div class=""> <!-- wraps all skills listings -->
     {% for item in site.data.resumeconfig.skills_section.subsection %}
-    <div class="content"> <!-- wraps single skill type -->
+    <div class="resume-section-content"> <!-- wraps single skill type -->
       <h3>{{ item.subsection_name }}</h3>
         <div class="">
           <ul>

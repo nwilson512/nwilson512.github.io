@@ -216,3 +216,15 @@ img {
     max-width: 100%;
   }
 }
+
+.mr-12 {
+  // margin-right: 3rem;
+}
+
+.resume-section-content {
+  margin-left: 10rem;
+  
+  @media (max-width: 700px) {
+    margin-left: unset;
+  }
+}
