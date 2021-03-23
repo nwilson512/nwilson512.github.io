@@ -1,0 +1,35 @@
+---
+layout: default
+---
+
+<h2>Writing samples</h2>
+
+
+{% for item in site.data.writingsampleconfig.toc %}
+  <h3>{{item.title}}</h3>
+  <ol>
+  {% for entry in item.pages %}
+  <li>
+    <a href="{{ entry.link }}">{{ entry.page }}</a>
+  </li>
+  {% endfor %}
+</ol>
+{% endfor %}
+
+
+<h2>Code samples</h2>
+
+
+{% for item in site.data.codesampleconfig.toc %}
+  <h3>{{item.title}}</h3>
+  <ul>
+  {% for entry in item.pages %}
+  <li>
+    <a href="{{ entry.link }}">{{ entry.page }}</a>
+  </li>
+  {% endfor %}
+</ul>
+{% endfor %}
+
+
+{{ content }}

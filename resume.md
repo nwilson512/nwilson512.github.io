@@ -4,4 +4,6 @@ navbar: true
 layout: resume
 ---
 
- This page is being rebuilt, check back later.
+<div class="note">
+ This page is being rebuilt. It's up-to-date, but the design is unfinished. 
+ </div>
