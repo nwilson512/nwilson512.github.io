@@ -5,8 +5,11 @@
 layout: home
 ---
 
-Experienced software technical writer with 8 years (and counting) of experience at some of the most prominent software companies on the planet.
+Experienced software technical writer with over 8 years of experience at some of the most prominent software companies on the planet.
 
-## Under construction
+
+<div class="note">
+<h2>Under construction</h2>
 
 Hey folks, I'm in the process of rebuilding my site, check back for more information later!
+</div>
