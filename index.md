@@ -5,7 +5,7 @@
 layout: home
 ---
 
-Experienced software technical writer with over 8 years of experience at some of the most prominent software companies on the planet.
+California-based **Software technical writer** and **team lead** with over **8 years** of experience at some of the most prominent software companies on the planet.
 
 
 <div class="note">
