@@ -22,11 +22,11 @@ In order to successfully follow the instructions in this document, you must meet
 
 **Perform the steps in the following documents to create and run a Statamic web server on Google Cloud Platform:**
 
-1. [Create a Google Cloud Platform Compute Engine instance](/samples/writing/create-a-google-cloud-platform-compute-engine-instance)
-2. [Create a key and add it to GCP](/samples/writing/create-a-key-and-add-it-to-gcp)
-3. [Install web server dependencies](/samples/writing/install-web-server-dependencies)
+1. [Create a Google Cloud Platform Compute Engine instance](/writing-samples/create-a-google-cloud-platform-compute-engine-instance)
+2. [Create a key and add it to GCP](/writing-samples/create-a-key-and-add-it-to-gcp)
+3. [Install web server dependencies](/writing-samples/install-web-server-dependencies)
 <!-- 4. [Configure PHP](/samples/writing/configure-php) -->
-5. [Add GitHub access to your VM](/samples/writing/add-github-access-to-your-vm)
-6. [Clone your repository into your web server](/samples/writing/clone-your-repository-into-your-web-server)
-7. [Configure Apache](/samples/writing/configure-apache)
-8. [Create a new virtual host configuration](/samples/writing/create-a-new-virtual-host-configuration)
+5. [Add GitHub access to your VM](/writing-samples/add-github-access-to-your-vm)
+6. [Clone your repository into your web server](/writing-samples/clone-your-repository-into-your-web-server)
+7. [Configure Apache](/writing-samples/configure-apache)
+8. [Create a new virtual host configuration](/writing-samples/create-a-new-virtual-host-configuration)

@@ -17,15 +17,15 @@ Once you've added your web server's key to GitHub, you can clone and pull from t
 
 2. Clone your Statamic repository into the webroot, typically: "/var/www/html/", directory of your server:
 
-  ```
-  cd /var/www/html/
+    ```
+    cd /var/www/html/
 
-  git clone git@github.com:exampleUser/exampleRepo.git
-  ```
+    git clone git@github.com:exampleUser/exampleRepo.git
+    ```
 
-  <div class="note">
-  IMPORTANT: You must use SSH syntax to clone a repository using a deploy key, HTTP syntax is unsupported.
-  </div>
+    <div class="note">
+    IMPORTANT: You must use SSH syntax to clone a repository using a deploy key, HTTP syntax is unsupported.
+    </div>
 
 Once complete, validate the clone operation by checking the folders under webroot. They should appear exactly as they do in your repository:
 

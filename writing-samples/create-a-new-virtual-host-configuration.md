@@ -11,27 +11,27 @@ In Apache, the virtual host file allows you to specify multiple configuration pa
 
 1. In the terminal, change to the sites available directory:
 
-  ```
-  cd /etc/apache2/sites-available
-  ```
+    ```
+    cd /etc/apache2/sites-available
+    ```
 
 2. Create a new virtual host configuration file for your statamic site by copying the "000-default.conf" file. There isn't a strict naming requirement, but I recommend giving it the same name as your project folder:
 
-  ```
-  cp 000-default.conf exampleSite.conf
-  ```
+    ```
+    cp 000-default.conf exampleSite.conf
+    ```
 
 3. Using VIM, open your new .conf file:
 
-  ```
-  sudo vim exampleSite.conf
-  ```
+    ```
+    sudo vim exampleSite.conf
+    ```
 
 4. Append your site directory to the "DocumentRoot: /var/www/html/" configuration parameter:
 
-  ```
-  DocumentRoot: /var/www/html/exampleSite/
-  ```
+    ```
+    DocumentRoot: /var/www/html/exampleSite/
+    ```
 
 5. Save your configuration file with the following keystrokes:
   * `:w`
@@ -40,20 +40,20 @@ In Apache, the virtual host file allows you to specify multiple configuration pa
 
 6. Enable your virtual host file using the `a2ensite` command:
 
-  ```
-  sudo a2ensite exampleSite.conf
-  ```
+    ```
+    sudo a2ensite exampleSite.conf
+    ```
 
 7. Validate your configuration file by running the `apachectl` command with the `-t` option to check for syntax errors:
 
-  ```
-  sudo apache2ctl -t
-  ```
+    ```
+    sudo apache2ctl -t
+    ```
 
 8. Restart Apache to apply the new configuration:
 
-  ```
-  sudo apache2ctl restart
-  ```
+    ```
+    sudo apache2ctl restart
+    ```
 
 [← Back to landing](/writing-samples/create-a-statamic-web-server-on-google-cloud-platform)

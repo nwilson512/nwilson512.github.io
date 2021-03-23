@@ -29,7 +29,7 @@ CAUTION: I strongly recommend following Google's advice and using <a href="https
     ssh-keygen -t rsa
     ```
 
-  This will create a public/private key pair, named "id_rsa" and place it in a hidden key directory on your Computer.
+    This will create a public/private key pair, named "id_rsa" and place it in a hidden key directory on your Computer.
 
 2. Change directories to your key directory:
 
@@ -45,33 +45,33 @@ CAUTION: I strongly recommend following Google's advice and using <a href="https
 
 3. Navigate to the compute engine page of your GCP console:
 
-  ![](/assets/img/gcpComputeEngine.png)
+    ![](/assets/img/gcpComputeEngine.png)
 
 4. Select **Metadata** from the navigation bar on the left side of the screen:
 
-  ![](/assets/img/gcpMetadata.png)
+    ![](/assets/img/gcpMetadata.png)
 
 5. Select **SSH Keys**, then select the **Edit** button:
 
-  <img class="imgOverrideSmall" src="/assets/img/gcpSshEdit.png"/>
+    <img class="imgOverrideSmall" src="/assets/img/gcpSshEdit.png"/>
 
 7. Select **+ Add item**:
 
-  <img class="imgOverrideSmall" src="/assets/img/gcpAddItem.png"/>
+    <img class="imgOverrideSmall" src="/assets/img/gcpAddItem.png"/>
 
 8. Paste your public key into the key text field in the Google Cloud console:
 
-  <img class="imgOverrideSmall" src="/assets/img/gcpPaste.png"/>
+    <img class="imgOverrideSmall" src="/assets/img/gcpPaste.png"/>
 
-<div class="note">
-<p>NOTE: This process manually assigns fixed key access. I strongly recommend rotating your keys on a planned interval as part of your security policies. </p>
-</div>
+    <div class="note">
+    <p>NOTE: This process manually assigns fixed key access. I strongly recommend rotating your keys on a planned interval as part of your security policies. </p>
+    </div>
 
 9. Ensure your public key was properly added by connecting to your VM using secure shell (SSH):
 
-  ```
-  ssh username@serverIP
-  ```
+    ```
+    ssh username@serverIP
+    ```
 
 [← Back to landing](/writing-samples/create-a-statamic-web-server-on-google-cloud-platform)
 

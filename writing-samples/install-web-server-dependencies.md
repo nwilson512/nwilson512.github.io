@@ -11,15 +11,15 @@ Once you've created your GCP VM and enabled access by adding your key to the met
 
 1. Update the **apt** package manager:
 
-  ```
-  sudo apt update
-  ```
+    ```
+    sudo apt update
+    ```
 
 2. Install Git:
 
-  ```
-  sudo apt install git
-  ```
+    ```
+    sudo apt install git
+    ```
 
 3. [Install php 7.3](https://computingforgeeks.com/how-to-install-php-7-3-on-debian-9-debian-8/)
 

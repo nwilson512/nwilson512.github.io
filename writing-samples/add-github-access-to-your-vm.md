@@ -53,24 +53,24 @@ Just as you added your development computer to your GitHub repo, you must also a
 
 1. Navigate to your GitHub repository:
 
-  ![](/assets/img/deployKeyAddNavRepo.png)
+    ![](/assets/img/deployKeyAddNavRepo.png)
 
 2. Select "Settings":
 
-  ![](/assets/img/deployKeyAddSettingsPage.png)
+    ![](/assets/img/deployKeyAddSettingsPage.png)
 
 3. Select "Deploy Keys" on the left menu:
 
-  ![](/assets/img/deployKeyAdd.png)
+    ![](/assets/img/deployKeyAdd.png)
 
 4. Open the public key you downloaded in the previous section of this documentation:
 
-  ```
-  atom id_rsa.pub
-  ```
+    ```
+    atom id_rsa.pub
+    ```
 
 5. Copy the the key's text into the "Key" dialogue box, name your key, and select "Add key":
 
-  <img class="imgOverrideTall" src="/assets/img/deployKeyAddKeyText.png"/>
+    <img class="imgOverrideTall" src="/assets/img/deployKeyAddKeyText.png"/>
 
 [← Back to landing](/writing-samples/create-a-statamic-web-server-on-google-cloud-platform)
