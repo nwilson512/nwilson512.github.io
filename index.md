@@ -13,3 +13,6 @@ California-based **Software technical writer** and **team lead** with over **8 y
 
 Hey folks, I'm in the process of rebuilding my site, check back for more information later!
 </div>
+
+
+<p style="font-size: small; float: bottom;"><i>Tooling note:</i> I originally deployed this website on GCP using the Statamic static site generator. I refactored this site, and it now runs on GitHub pages using Jekyll.  
