@@ -3,7 +3,7 @@ title: 'Clone your repository into your web server'
 type: task
 ---
 
-[← Back to TOC](/samples/writing/create-a-statamic-web-server-on-google-cloud-platform)
+[← Back to landing](/writing-samples/create-a-statamic-web-server-on-google-cloud-platform)
 
 Once you've added your web server's key to GitHub, you can clone and pull from the repository onto your webserver. By default, the Debian operating system includes the Apache webserver. We'll use Apache to serve our websites to visitors.
 
@@ -40,4 +40,4 @@ Once complete, validate the clone operation by checking the folders under webroo
   ↳ ..etc
 ```
 
-[← Back to TOC](/samples/writing/create-a-statamic-web-server-on-google-cloud-platform)
+[← Back to landing](/writing-samples/create-a-statamic-web-server-on-google-cloud-platform)

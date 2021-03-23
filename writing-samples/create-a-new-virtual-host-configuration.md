@@ -3,7 +3,7 @@ title: 'Create a new virtual host configuration'
 type: task
 ---
 
-[← Back to TOC](/samples/writing/create-a-statamic-web-server-on-google-cloud-platform)
+[← Back to landing](/writing-samples/create-a-statamic-web-server-on-google-cloud-platform)
 
 In Apache, the virtual host file allows you to specify multiple configuration parameters using individual configuration files which can then be selectively activated and deactivated when necessary. Since your installation uses a largely default configuration, your configuration file will not require much modification.
 
@@ -56,4 +56,4 @@ In Apache, the virtual host file allows you to specify multiple configuration pa
   sudo apache2ctl restart
   ```
 
-[← Back to TOC](/samples/writing/create-a-statamic-web-server-on-google-cloud-platform)
+[← Back to landing](/writing-samples/create-a-statamic-web-server-on-google-cloud-platform)

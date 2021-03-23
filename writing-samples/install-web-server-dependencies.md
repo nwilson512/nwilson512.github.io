@@ -3,7 +3,7 @@ title: 'Install web server dependencies'
 type: task
 ---
 
-[← Back to TOC](/samples/writing/create-a-statamic-web-server-on-google-cloud-platform)
+[← Back to landing](/writing-samples/create-a-statamic-web-server-on-google-cloud-platform)
 
 Once you've created your GCP VM and enabled access by adding your key to the metadata, you can configure your VM as a web server. Just as with development, start configuration by installing dependencies.
 
@@ -23,4 +23,4 @@ Once you've created your GCP VM and enabled access by adding your key to the met
 
 3. [Install php 7.3](https://computingforgeeks.com/how-to-install-php-7-3-on-debian-9-debian-8/)
 
-[← Back to TOC](/samples/writing/create-a-statamic-web-server-on-google-cloud-platform)
+[← Back to landing](/writing-samples/create-a-statamic-web-server-on-google-cloud-platform)

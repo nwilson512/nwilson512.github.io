@@ -3,7 +3,7 @@ title: 'Configure PHP'
 type: task
 ---
 
-[← Back to TOC](/samples/writing/create-a-statamic-web-server-on-google-cloud-platform)
+[← Back to landing](/writing-samples/create-a-statamic-web-server-on-google-cloud-platform)
 
 1. Increase your php memory limits:
 
@@ -42,4 +42,4 @@ type: task
       date.timezone = America/Los_Angeles
       ```
 
-[← Back to TOC](/samples/writing/create-a-statamic-web-server-on-google-cloud-platform)
+[← Back to landing](/writing-samples/create-a-statamic-web-server-on-google-cloud-platform)
