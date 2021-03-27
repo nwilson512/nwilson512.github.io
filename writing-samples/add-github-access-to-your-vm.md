@@ -21,7 +21,7 @@ Just as you added your development computer to your GitHub repo, you must also a
     ssh-keygen -t rsa
     ```
 
-  In the Debian operating system, the default location is:
+    In the Debian operating system, the default location is:
 
     ```
     /home/yourUserName/.ssh/id_rsa.pub
