@@ -7,7 +7,7 @@ layout: default
   <div class="flex"> <!-- wraps entire experience section -->
     <!-- iterate through the 'experience_section' multidimensional array -->
     <h2 class="mr-12">{{ site.data.resumeconfig.experience_section.experience_section_name }}</h2> <!-- draw the experience section name at this level of the array -->
-    <div class=""> <!-- wraps all experience listings -->
+    <div class="experience"> <!-- wraps all experience listings -->
        {% for item in site.data.resumeconfig.experience_section.subsection %}
       <div class="resume-section-content"> <!-- wraps each company -->
         <h3> {{ item.subsection_name }}</h3>
@@ -35,7 +35,7 @@ layout: default
 
 <div class="flex"> <!-- wraps all of education -->
   <h2 class="mr-12">{{ site.data.resumeconfig.education_section.education_section_name }}</h2>
-  <div class=""> <!-- wraps all education listings -->
+  <div class="education"> <!-- wraps all education listings -->
     {% for item in site.data.resumeconfig.education_section.subsection %}
     <div class="resume-section-content"> <!-- wraps whole university listing -->
       <h3>{{ item.subsection_name }}</h3>
@@ -50,7 +50,7 @@ layout: default
 
 <div class="flex"> <!-- wraps all of skills -->
   <h2 class="mr-12">{{ site.data.resumeconfig.skills_section.skills_section_name }}</h2>
-  <div class=""> <!-- wraps all skills listings -->
+  <div class="skills"> <!-- wraps all skills listings -->
     {% for item in site.data.resumeconfig.skills_section.subsection %}
     <div class="resume-section-content"> <!-- wraps single skill type -->
       <h3>{{ item.subsection_name }}</h3>
