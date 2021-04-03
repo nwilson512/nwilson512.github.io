@@ -8,7 +8,7 @@
 
 .experience, .education, .skills {
   // display: flex;
-  margin-top: 6px;
+  margin-top: 7px;
   @media (max-width: 780px) {
     display: block;
   }
@@ -231,6 +231,7 @@ img {
 
 .resume-section-content {
   // margin-left: 10rem;
+  margin-bottom: 2rem;
   
   @media (max-width: 700px) {
     margin-left: unset;
@@ -247,4 +248,21 @@ img {
 
 .site-footer {
   background-color: #e8e8e8;
+}
+
+.resume-section-content {
+  h3 {
+
+  }
+
+  h4 {
+    font-style: italic;
+  }
+
+  p {
+    font-size: small;
+  }
+  ul {
+    margin-bottom: 2rem;
+  }
 }
