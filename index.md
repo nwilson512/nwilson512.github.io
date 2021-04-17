@@ -5,7 +5,7 @@
 layout: home
 ---
 
-California-based **Software technical writer** and **team lead** with over **8 years** of experience at some of the most prominent software companies on the planet.
+<h2 class="landingPage">Software <span class="lookAtMe">technical writer</span> and <span class="andMe">team lead</span> with over <span class="lookAtMe">8 years</span> of experience at some of the most prominent software companies on the planet.</h2>
 
 
 <div class="note">
