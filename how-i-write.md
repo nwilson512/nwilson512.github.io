@@ -67,6 +67,16 @@ In this phase, I publish the document. Depending on the documentation infrastruc
 
 Just because a document has been published, does not mean it is perfect or requires no updates. I support my documents by reviewing analytics, responding to customer feedback, and providing content updates as the product changes.
 
+## Content strategy
+
+How do you design a complete document set? How do you know it's complete? You start with understanding your users. The same principles that guide product development also guide documentation development. Indeed, you should think of your documentation as part of your product. 
+
+<!-- ### Build user profiles and write user stories
+
+When approaching engineering using Agile methodologies, you'll have your own user stories already. Each distinct user story 
+
+If we think about documentation as a product, we can start to define user stories specific to documentation. These user stories should always form a superset of the engineering documentation success condition. For example, let's say you're designing a piece of software for a printer. If the  -->
+
 <!--
 ## Documentation platforms
 
