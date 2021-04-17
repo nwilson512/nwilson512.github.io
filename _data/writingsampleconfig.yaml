@@ -17,3 +17,11 @@ toc:
         link: /writing-samples/configure-apache
       - page: Create a new virtual host configuration
         link: /writing-samples/create-a-new-virtual-host-configuration
+  - title: The Rock paper scissors API
+    pages:
+      - page: RPSAPI
+        link: /writing-samples/api
+  - title: PX-Backup documentation
+    pages: 
+      - page: "1.0"
+        link: https://1.0.backup.docs.portworx.com
