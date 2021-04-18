@@ -1,6 +1,9 @@
 ---
 title: 'Create a Statamic web server on Google Cloud Platform'
 type: task
+# next-page: 
+#   url: /sample-works/create-a-statamic-web-server-on-google-cloud-platform/create-a-google-cloud-platform-compute-engine-instance
+#   title: Create a Google Cloud Platform Compute Engine instance
 ---
 
 When you want to move into production, you'll need to create and run a web server. You have many different options when it comes to running statamic in a production environment, and some implementations are more complex than others.

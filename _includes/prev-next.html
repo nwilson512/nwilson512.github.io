@@ -1,0 +1,8 @@
+<div class="prev-next">
+    {% if page.previous-page %}
+      <a class="prev" href="{{page.previous-page.url}}">&laquo; {{page.previous-page.title}}</a>
+    {% endif %}
+    {% if page.next-page %}
+      <a class="next" href="{{page.next-page.url}}">{{page.next-page.title}} &raquo;</a>
+    {% endif %}
+  </div>
