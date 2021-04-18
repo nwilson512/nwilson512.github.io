@@ -2,20 +2,20 @@ toc:
   - title: CS50 problem sets
     pages:
       - page: Caesar
-        link: /code-samples/caesar
+        link: /sample-works/code-samples/caesar
       - page: Find
-        link: /code-samples/find
+        link: /sample-works/code-samples/find
       - page: Greedy
-        link: /code-samples/greedy
+        link: /sample-works/code-samples/greedy
       - page: Recover
-        link: /code-samples/recover
+        link: /sample-works/code-samples/recover
       - page: Resize
-        link: /code-samples/resize
+        link: /sample-works/code-samples/resize
       - page: Viginere
-        link: /code-samples/viginere
+        link: /sample-works/code-samples/viginere
   - title: Example code from this website
     pages:
       - page: API documentation automation script
-        link: /code-samples/api-documentation-automation
+        link: /sample-works/code-samples/api-documentation-automation
       - page: Rock paper scissors API
-        link: /code-samples/rock-paper-scissors-api
+        link: /sample-works/code-samples/rock-paper-scissors-api
