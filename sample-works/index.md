@@ -1,7 +1,5 @@
 ---
 title: Sample works
-mount: code_samples
-mount: samples
 navbar: true
 layout: samples
 ---
