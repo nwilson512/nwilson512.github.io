@@ -17,10 +17,11 @@ experience_section:
             - Document internal publication procedures
         - focus_area_name: Leadership
           focus_area_list:
-            - Manage contractor direct reports, delegate tasks, and oversee progress
+            - Manage direct reports, delegate tasks, and oversee progress
             - Create and enforce a style guide for all writers and contributors
             - Copyedit and review all documentation changes before publishing
             - Triage new issues and organize work into sprints
+            - Define job descriptions and hire full-time writers across multiple geos
     - subsection_name: Celtra, Inc.
       job_title: Technical Writer
       tenure: July 2018 - February 2019
@@ -103,6 +104,11 @@ skills_section:
         - Amazon Web Services (AWS)
         - Microsoft Azure
         - Google Cloud Platform (GCP)
+    - subsection_name: Containerization
+      subsection_list:
+        - Kubernetes
+        - Google Kubernetes Engine (GKE)
+        - Openshift container platform (OCP)
 
 education_section:
   education_section_name: Education

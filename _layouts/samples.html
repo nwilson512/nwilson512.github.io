@@ -4,32 +4,40 @@ layout: default
 
 <h2>Writing samples</h2>
 
-
-{% for item in site.data.writingsampleconfig.toc %}
-  <h3>{{item.title}}</h3>
   <ol>
-  {% for entry in item.pages %}
-  <li>
-    <a href="{{ entry.link }}">{{ entry.page }}</a>
-  </li>
+<div class="writing-samples">
+  {% for item in site.data.writingsampleconfig.toc %}
+    {% if {{item.link}} %}
+      <h3><a href="{{item.link}}">{{item.title}}</a></h3>
+    {% else %}
+      <h3>{{item.title}}</h3>
+    {% endif %}
+    {% if {{item.pages}} %}
+      <ol class="sample-pages">
+        {% for entry in item.pages %}
+          <li>
+            <a href="{{ entry.link }}">{{ entry.page }}</a>
+          </li>
+        {% endfor %}
+      </ol>
+    {% endif %}
   {% endfor %}
-</ol>
-{% endfor %}
+  </div>  
 
 
 <h2>Code samples</h2>
 
-
-{% for item in site.data.codesampleconfig.toc %}
-  <h3>{{item.title}}</h3>
-  <ul>
-  {% for entry in item.pages %}
-  <li>
-    <a href="{{ entry.link }}">{{ entry.page }}</a>
-  </li>
+<div class="writing-samples">
+  {% for item in site.data.codesampleconfig.toc %}
+    <h3>{{item.title}}</h3>
+    <ul>
+    {% for entry in item.pages %}
+    <li>
+      <a href="{{ entry.link }}">{{ entry.page }}</a>
+    </li>
+    {% endfor %}
+  </ul>
   {% endfor %}
-</ul>
-{% endfor %}
-
+</div>
 
 {{ content }}
