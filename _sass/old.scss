@@ -274,3 +274,19 @@ pre {
 #breadcrumbs {
   margin-bottom: 2rem;
 }
+
+.prev-next {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+ 
+  display: flex;
+  a {
+    background-color: #828282;
+    color: #fff;
+    padding: 1rem;
+    margin: 1rem;
+    max-width: 40%;
+    text-overflow: ellipsis;
+    border-radius: .5rem;
+  }
+}

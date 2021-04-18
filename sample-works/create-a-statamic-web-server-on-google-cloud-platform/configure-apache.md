@@ -1,6 +1,13 @@
 ---
 title: 'Configure Apache'
 type: task
+
+prev-page: 
+  url: /sample-works/create-a-statamic-web-server-on-google-cloud-platform/clone-your-repository-into-your-web-server
+  title: Clone your repository into your web server
+next-page: 
+  url: /sample-works/create-a-statamic-web-server-on-google-cloud-platform/create-a-new-virtual-host-configuration
+  title: Create a new virtual host configuration
 ---
 
 Statamic is capable of being served from many different web servers, most notably, Apache and NGINX. Debian includes a running Apache web server by default, so this document will provide instructions for Apache only.

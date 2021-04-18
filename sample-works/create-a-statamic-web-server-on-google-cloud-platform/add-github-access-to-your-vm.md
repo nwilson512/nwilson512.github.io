@@ -1,6 +1,13 @@
 ---
 title: 'Add GitHub access to your VM'
 type: task
+
+prev-page: 
+  url: /sample-works/create-a-statamic-web-server-on-google-cloud-platform/install-web-server-dependencies
+  title: Install web server dependencies
+next-page: 
+  url: /sample-works/create-a-statamic-web-server-on-google-cloud-platform/clone-your-repository-into-your-web-server
+  title: Clone your repository into your web server
 ---
 
 Just as you added your development computer to your GitHub repo, you must also add your GCP VM to GitHub. To do this, generate a new key pair on your VM and establish the public key with your GitHub repository.

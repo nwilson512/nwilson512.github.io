@@ -1,6 +1,10 @@
 ---
 title: 'Create a Google Cloud Platform Compute Engine instance'
 type: task
+
+next-page: 
+  url: /sample-works/create-a-statamic-web-server-on-google-cloud-platform/create-a-key-and-add-it-to-gcp
+  title: Create a key and add it to GCP
 ---
 
 GCP Compute Engines are virtual machines (VM) that run in the cloud. When you create a Compute Engine instance, it will be placed within logical and network groups associated with your project.

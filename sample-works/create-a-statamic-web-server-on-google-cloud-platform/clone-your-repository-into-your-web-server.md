@@ -1,6 +1,13 @@
 ---
 title: 'Clone your repository into your web server'
 type: task
+
+prev-page: 
+  url: /sample-works/create-a-statamic-web-server-on-google-cloud-platform/add-github-access-to-your-vm
+  title: Add GitHub access to your VM
+next-page: 
+  url: /sample-works/create-a-statamic-web-server-on-google-cloud-platform/configure-apache
+  title: Configure Apache
 ---
 
 Once you've added your web server's key to GitHub, you can clone and pull from the repository onto your webserver. By default, the Debian operating system includes the Apache webserver. We'll use Apache to serve our websites to visitors.

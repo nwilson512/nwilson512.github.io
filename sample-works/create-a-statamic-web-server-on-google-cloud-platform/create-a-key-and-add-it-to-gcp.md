@@ -1,6 +1,13 @@
 ---
 title: 'Create a key and add it to GCP'
 type: task
+
+prev-page: 
+  url: /sample-works/create-a-statamic-web-server-on-google-cloud-platform/create-a-google-cloud-platform-compute-engine-instance
+  title: Create a Google Cloud Platform Compute Engine instance
+next-page: 
+  url: /sample-works/create-a-statamic-web-server-on-google-cloud-platform/install-web-server-dependencies
+  title: Install web server dependencies
 ---
 
 <!-- Web servers and GCP Compute Instances are networked at the IP level. This means that when you create a VM, it will be assigned an internal IP address, as well as a temporary public IP address. You can use the public IP address to connect to it  -->
