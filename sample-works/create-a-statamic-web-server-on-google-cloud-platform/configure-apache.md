@@ -3,8 +3,6 @@ title: 'Configure Apache'
 type: task
 ---
 
-[← Back to landing](/writing-samples/create-a-statamic-web-server-on-google-cloud-platform)
-
 Statamic is capable of being served from many different web servers, most notably, Apache and NGINX. Debian includes a running Apache web server by default, so this document will provide instructions for Apache only.
 
 **Perform the following steps to configure Apache on Debian to serve your Statamic site:**
@@ -58,5 +56,3 @@ Statamic is capable of being served from many different web servers, most notabl
     ```
 
   <!--  or is it: sudo apache2ctl restart ?-->
-
-[← Back to landing](/writing-samples/create-a-statamic-web-server-on-google-cloud-platform)

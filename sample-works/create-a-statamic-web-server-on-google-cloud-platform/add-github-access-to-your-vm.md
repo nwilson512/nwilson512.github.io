@@ -3,8 +3,6 @@ title: 'Add GitHub access to your VM'
 type: task
 ---
 
-[← Back to landing](/writing-samples/create-a-statamic-web-server-on-google-cloud-platform)
-
 Just as you added your development computer to your GitHub repo, you must also add your GCP VM to GitHub. To do this, generate a new key pair on your VM and establish the public key with your GitHub repository.
 
 **Perform the following steps to generate a key pair on your GCP VM:**
@@ -73,4 +71,4 @@ Just as you added your development computer to your GitHub repo, you must also a
 
     <img class="imgOverrideTall" src="/assets/img/deployKeyAddKeyText.png"/>
 
-[← Back to landing](/writing-samples/create-a-statamic-web-server-on-google-cloud-platform)
+

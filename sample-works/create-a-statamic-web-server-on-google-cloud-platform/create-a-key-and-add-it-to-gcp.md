@@ -3,8 +3,6 @@ title: 'Create a key and add it to GCP'
 type: task
 ---
 
-[← Back to landing](/writing-samples/create-a-statamic-web-server-on-google-cloud-platform)
-
 <!-- Web servers and GCP Compute Instances are networked at the IP level. This means that when you create a VM, it will be assigned an internal IP address, as well as a temporary public IP address. You can use the public IP address to connect to it  -->
 
 <!-- Access to your VM is secured using something called the **AAA** network model. The **AAA** network model breaks down as:
@@ -73,7 +71,7 @@ CAUTION: I strongly recommend following Google's advice and using <a href="https
     ssh username@serverIP
     ```
 
-[← Back to landing](/writing-samples/create-a-statamic-web-server-on-google-cloud-platform)
+
 
 <br/>
 <p style="font-size: small;"><i>Citation note:</i> I referenced the linked Google production documentation when I wrote this page, specifically the articles: <a href="https://cloud.google.com/compute/docs/oslogin/">OS Login</a> and <a href="https://cloud.google.com/compute/docs/instances/adding-removing-ssh-keys">Managing SSH keys in metadata</a>. In production doc, I would simply link to this documentation. However, this is a writing exercise, and I've documented my own steps for sample purposes.</p>
