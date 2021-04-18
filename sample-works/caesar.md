@@ -5,7 +5,7 @@ course: CS50
 lang: C
 description: Takes a string input and enciphers it using Caesar's cipher.
 ---
-~~~ C
+~~~C
 #include <stdio.h>
 #include <cs50.h>
 #include <string.h>

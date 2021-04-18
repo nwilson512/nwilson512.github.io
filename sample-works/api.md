@@ -68,7 +68,7 @@ To interact with the API and play Rock Paper Scissors, you need an http client t
 
 The most immediate way you can get started with rock paper scissors is to submit a request using form data. This button sends a form request to get all of the players:
 
-<form class="getPlayers" action="http://techwriting.info/rpsapi/v1/players/" method="get">
+<form class="getPlayers" action="http://techwriting.io/rpsapi/v1/players/" method="get">
   <input class="getPlayersButton" type="submit" name="submit" value="Get all players"/>
 </form>
 

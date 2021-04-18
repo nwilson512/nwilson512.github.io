@@ -2,25 +2,25 @@ toc:
   - title: Deploy a static website on Google Cloud Platform
     pages:
       - page: Create a Statamic website on Google Cloud Platform
-        link: /sample-works/writing-samples/create-a-statamic-web-server-on-google-cloud-platform/
+        link: /sample-works/create-a-statamic-web-server-on-google-cloud-platform/
       - page: Create a Google Cloud Platform Compute Engine instance
-        link: /sample-works/writing-samples/create-a-statamic-web-server-on-google-cloud-platform/create-a-google-cloud-platform-compute-engine-instance
+        link: /sample-works/create-a-statamic-web-server-on-google-cloud-platform/create-a-google-cloud-platform-compute-engine-instance
       - page: Create a key and add it to GCP
-        link: /sample-works/writing-samples/create-a-statamic-web-server-on-google-cloud-platform/create-a-key-and-add-it-to-gcp
+        link: /sample-works/create-a-statamic-web-server-on-google-cloud-platform/create-a-key-and-add-it-to-gcp
       - page: Install web server dependencies
-        link: /sample-works/writing-samples/create-a-statamic-web-server-on-google-cloud-platform/install-web-server-dependencies
+        link: /sample-works/create-a-statamic-web-server-on-google-cloud-platform/install-web-server-dependencies
       - page: Add GitHub access to your VM
-        link: /sample-works/writing-samples/create-a-statamic-web-server-on-google-cloud-platform/add-github-access-to-your-vm
+        link: /sample-works/create-a-statamic-web-server-on-google-cloud-platform/add-github-access-to-your-vm
       - page: Clone your repository into your web server
-        link: /sample-works/writing-samples/create-a-statamic-web-server-on-google-cloud-platform/clone-your-repository-into-your-web-server
+        link: /sample-works/create-a-statamic-web-server-on-google-cloud-platform/clone-your-repository-into-your-web-server
       - page: Configure Apache
-        link: /sample-works/writing-samples/create-a-statamic-web-server-on-google-cloud-platform/configure-apache
+        link: /sample-works/create-a-statamic-web-server-on-google-cloud-platform/configure-apache
       - page: Create a new virtual host configuration
-        link: /sample-works/writing-samples/create-a-statamic-web-server-on-google-cloud-platform/create-a-new-virtual-host-configuration
+        link: /sample-works/create-a-statamic-web-server-on-google-cloud-platform/create-a-new-virtual-host-configuration
   - title: The Rock paper scissors API
     pages:
       - page: RPSAPI
-        link: /sample-works/writing-samples/api
+        link: /sample-works/api
   - title: PX-Backup documentation
     pages: 
       - page: "1.0"
