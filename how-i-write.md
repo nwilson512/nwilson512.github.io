@@ -1,10 +1,9 @@
 ---
 title: 'How I write'
-fieldset: default
 hook: "See how I write documentation, find out what modular documentation is, and view sample documents"
-template: about_how
 type: concept
 navbar: true
+toc: true
 ---
 
 ## My Documentation Process

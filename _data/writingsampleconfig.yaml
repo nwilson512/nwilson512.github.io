@@ -1,4 +1,6 @@
 toc:
+  - title: PX-Backup documentation
+    link: https://1.0.backup.docs.portworx.com
   - title: Deploy a static website on Google Cloud Platform
     link: /sample-works/create-a-statamic-web-server-on-google-cloud-platform/
     pages:
@@ -18,6 +20,4 @@ toc:
         link: /sample-works/create-a-statamic-web-server-on-google-cloud-platform/create-a-new-virtual-host-configuration
   - title: The Rock paper scissors API
     link: /sample-works/api
-  - title: PX-Backup documentation
-    link: https://1.0.backup.docs.portworx.com
         

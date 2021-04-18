@@ -1,6 +1,7 @@
 ---
 title: API
 layout: api
+toc: true
 
 type: Concept, Reference
 

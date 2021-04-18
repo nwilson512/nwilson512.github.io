@@ -10,6 +10,9 @@
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
         {%- include breadcrumbs.html -%}
+          {% if page.toc %}
+            {% include toc.html html=content class="scroll-toc" h_min=2%}
+          {% endif %}
         {{ content }}
       </div>
     </main>

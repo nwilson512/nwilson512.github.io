@@ -306,3 +306,16 @@ pre {
 .writing-samples {
   // margin-left: 2rem;
 }
+
+.scroll-toc {
+  display: flex;
+  position: absolute;
+  right: 3rem;
+  max-width: 10rem;
+  font-size: small;
+  flex-direction: column;
+  @media (max-width: 1160px) {
+    display: none;
+  }
+
+}

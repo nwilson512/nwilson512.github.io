@@ -1,8 +1,6 @@
 ---
 title: 'About this site'
-fieldset: default
 hook: "Learn how this site is built, what technologies it is built on, and how you can build one just like it."
-template: about_how
 type: concept
 ---
 
