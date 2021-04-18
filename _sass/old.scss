@@ -280,13 +280,29 @@ pre {
   margin-bottom: 1rem;
  
   display: flex;
+  justify-content: space-between;
   a {
     background-color: #828282;
     color: #fff;
     padding: 1rem;
-    margin: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     max-width: 40%;
     text-overflow: ellipsis;
     border-radius: .5rem;
   }
+  .prev {
+
+  }
+  .next {
+    margin-left: auto;
+  }
+}
+
+.sample-pages {
+  margin-bottom: 2rem;
+}
+
+.writing-samples {
+  // margin-left: 2rem;
 }

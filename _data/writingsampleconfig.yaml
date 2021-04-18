@@ -1,8 +1,7 @@
 toc:
   - title: Deploy a static website on Google Cloud Platform
+    link: /sample-works/create-a-statamic-web-server-on-google-cloud-platform/
     pages:
-      - page: Create a Statamic website on Google Cloud Platform
-        link: /sample-works/create-a-statamic-web-server-on-google-cloud-platform/
       - page: Create a Google Cloud Platform Compute Engine instance
         link: /sample-works/create-a-statamic-web-server-on-google-cloud-platform/create-a-google-cloud-platform-compute-engine-instance
       - page: Create a key and add it to GCP
@@ -18,10 +17,7 @@ toc:
       - page: Create a new virtual host configuration
         link: /sample-works/create-a-statamic-web-server-on-google-cloud-platform/create-a-new-virtual-host-configuration
   - title: The Rock paper scissors API
-    pages:
-      - page: RPSAPI
-        link: /sample-works/api
+    link: /sample-works/api
   - title: PX-Backup documentation
-    pages: 
-      - page: "1.0"
-        link: https://1.0.backup.docs.portworx.com
+    link: https://1.0.backup.docs.portworx.com
+        
