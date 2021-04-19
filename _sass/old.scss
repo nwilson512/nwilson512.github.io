@@ -239,9 +239,9 @@ img {
   }
 }
 
-.resume-section-content h4 {
-  
-}
+// .resume-section-content h4 {
+//   font-style: unset;
+// }
 
 .site-header {
   background-color: #24a3af;
@@ -261,7 +261,7 @@ img {
   }
 
   h4 {
-    font-style: italic;
+    // font-style: italic;
   }
 
   p {
@@ -392,4 +392,28 @@ pre {
     list-style-type: none;
     margin-left: 1rem;
   }
+}
+
+.job-title {
+  font-weight: 600;
+  margin-bottom: .4rem;
+}
+
+.tenure {
+  // margin-bottom: .4rem;
+  font-size: small;
+}
+
+.focus-area {
+  margin-bottom: .4rem;
+  font-weight: 600;
+}
+
+.company {
+  font-weight: 600;
+}
+
+.resume-list {
+  list-style-type: unset!important;
+  margin-left: 30px!important;
 }

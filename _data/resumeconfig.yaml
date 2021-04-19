@@ -61,7 +61,7 @@ experience_section:
         - focus_area_name: Leadership
           focus_area_list:
             - Established a release publications team
-            - Educated and advise team members on release procedures
+            - Educated and advised team members on release procedures
             - Delegated team tasks for product releases on my.vertica.com
             - Oversaw publication operations
         - focus_area_name: Technical Writing
@@ -104,7 +104,7 @@ skills_section:
         - Amazon Web Services (AWS)
         - Microsoft Azure
         - Google Cloud Platform (GCP)
-    - subsection_name: Containerization
+    - subsection_name: Containers
       subsection_list:
         - Kubernetes
         - Google Kubernetes Engine (GKE)

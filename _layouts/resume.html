@@ -10,14 +10,14 @@ layout: default
     <div class="experience"> <!-- wraps all experience listings -->
        {% for item in site.data.resumeconfig.experience_section.subsection %}
       <div class="resume-section-content"> <!-- wraps each company -->
-        <h3> {{ item.subsection_name }}</h3>
-        <div class=""> <!-- wraps each job -->
-          <h4> {{ item.job_title}} </h4>
-          <p> {{ item.tenure}} </p>
+        <h3 class="company"> {{ item.subsection_name }}</h3>
+        <div class="book"> <!-- wraps each job -->
+          <h4 class="job-title"> {{ item.job_title}} </h4>
+          <p class="tenure"> {{ item.tenure}} </p>
           {% for entry in item.focus_area %}
           <div class=""> <!-- wraps each experience subsection -->
-            <h4>{{ entry.focus_area_name }}</h4>
-            <ul>
+            <h4 class="focus-area">{{ entry.focus_area_name }}</h4>
+            <ul class="resume-list">
               {% for value in entry.focus_area_list %}
               <li>
                 {{ value }}
@@ -38,10 +38,10 @@ layout: default
   <div class="education"> <!-- wraps all education listings -->
     {% for item in site.data.resumeconfig.education_section.subsection %}
     <div class="resume-section-content"> <!-- wraps whole university listing -->
-      <h3>{{ item.subsection_name }}</h3>
-      <div class="">
-        <h4>{{ item.degree_name }}</h4>
-        <p>{{ item.graduation_date }}</p>
+      <h3 class="company">{{ item.subsection_name }}</h3>
+      <div class="book">
+        <h4 class="job-title">{{ item.degree_name }}</h4>
+        <p class="tenure">{{ item.graduation_date }}</p>
       </div> <!-- wraps all roles under company, including job/employment dates -->
     </div> <!-- wraps whole university listing -->
     {% endfor %}
@@ -53,9 +53,9 @@ layout: default
   <div class="skills"> <!-- wraps all skills listings -->
     {% for item in site.data.resumeconfig.skills_section.subsection %}
     <div class="resume-section-content"> <!-- wraps single skill type -->
-      <h3>{{ item.subsection_name }}</h3>
-        <div class="">
-          <ul>
+      <h3 class="company">{{ item.subsection_name }}</h3>
+        <div class="book">
+          <ul class="resume-list">
             <!-- iterate through the subsection list -->
             {% for value in item.subsection_list %}
             <li>
