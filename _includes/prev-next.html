@@ -1,8 +1,8 @@
 <div class="prev-next">
     {% if page.prev-page %}
-      <a class="prev" href="{{page.prev-page.url}}">← {{page.prev-page.title}}</a>
+      <a class="prev" href="{{page.prev-page.url}}">{{page.prev-page.title}}</a>
     {% endif %}
     {% if page.next-page %}
-      <a class="next" href="{{page.next-page.url}}">{{page.next-page.title}} →</a>
+      <a class="next" href="{{page.next-page.url}}">{{page.next-page.title}}</a>
     {% endif %}
   </div>

@@ -295,12 +295,25 @@ pre {
     max-width: 40%;
     text-overflow: ellipsis;
     border-radius: .5rem;
+    display: flex;
   }
   .prev {
 
   }
+  .prev::before {
+    content:"←";
+    margin-right: 1rem;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
   .next {
     margin-left: auto;
+  }
+  .next::after {
+    content:"→";
+    margin-left: 1rem;
+    margin-top: auto;
+    margin-bottom: auto;
   }
 }
 
