@@ -381,3 +381,15 @@ pre {
   border-bottom-right-radius: .5rem;
   border-bottom-left-radius: .5rem;
 }
+
+.book {
+  border-left: #e8e8e8;
+  border-left-style: solid;
+  padding-left: 1rem;
+  border-width: 2px;
+  margin-left: 2px;
+  ul, ol {
+    list-style-type: none;
+    margin-left: 1rem;
+  }
+}
