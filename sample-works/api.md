@@ -149,3 +149,5 @@ mongoose.connect('mongodb://XXXXXX:yyyYYYyy@zzzZZZZz.mlab.com:55555/api', { useN
 ### More information
 
 For more information, see the Rock Paper Scissors API's full code in the [Samples](/samples/code/rock-paper-scissors-api) section.
+
+## API reference
