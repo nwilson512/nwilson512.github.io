@@ -40,6 +40,9 @@
   .page-link {
     // color: $text-color;
     color: #fff;
+    @media (max-width: 600px) {
+      color: $text-color;
+    }
     line-height: $base-line-height;
 
     // Gaps between nav items, but not on the last one
