@@ -323,3 +323,60 @@ pre {
   }
 
 }
+
+.mt-6 {
+  margin-top: 1.5rem;
+}
+
+.border {
+  border-width: 1px;
+}
+
+.border-solid {
+  border-style: solid;
+}
+
+.border-color-black {
+  --tw-border-opacity: 1;
+  border-color: rgba(0, 0, 0, var(--tw-border-opacity));
+}
+
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+
+.rounded-b-lg {
+  border-bottom-right-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+
+.p-6 {
+  padding: 1.5rem;
+  display: block;
+}
+
+.list-reset {
+  list-style: none; padding: 0;
+}
+
+.ml-6 {
+  margin-left: 1.5rem;
+}
+
+.bg-black {
+  background-color: #22292f;
+}
+
+.text-grey-lighter {
+  color: #f1f5f8;
+  font-size: smaller;
+}
+
+.font-mono {
+  font-family: Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
+}
+
+.rounded-b-lg {
+  border-bottom-right-radius: .5rem;
+  border-bottom-left-radius: .5rem;
+}
