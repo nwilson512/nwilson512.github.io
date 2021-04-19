@@ -11,38 +11,38 @@ api_url: http://api.test:5656/api/v1
 api_calls:
 - data:
     - description: The root endpoint, returns connection info
-      example: curl -X GET http://techwriting.info/rpsapi/v1/
+      example: curl -X GET http://techwriting.io/rpsapi/v1/
       method: GET
       parameters: NONE
   endpoint: /
 - data:
     - description: Returns this documentation
-      example: curl -X GET http://techwriting.info/rpsapi/v1/docs
+      example: curl -X GET http://techwriting.io/rpsapi/v1/docs
       method: GET
       parameters: NONE
   endpoint: /docs
 - data:
   - description: Fetch a list of all players stored in the database.
-    example: curl -X GET http://techwriting.info/rpsapi/v1/players
+    example: curl -X GET http://techwriting.io/rpsapi/v1/players
     method: GET
     parameters: NONE
   - description: create a new player
-    example: curl -X POST -d "name=Steve" http://techwriting.info/rpsapi/v1/players
+    example: curl -X POST -d "name=Steve" http://techwriting.io/rpsapi/v1/players
     method: POST
     parameters: name (string)
   endpoint: /players
 - data:
   - description: Fetch a specific player's name
-    example: curl -X GET http://techwriting.info/rpsapi/v1/players/5c5cc956608ab82cb789da6b
+    example: curl -X GET http://techwriting.io/rpsapi/v1/players/5c5cc956608ab82cb789da6b
     method: GET
     parameters: NONE
   - description: Update a specific player's name or play a new hand. Use only one
       parameter at a time.
-    example: curl -X PUT -d "played=rock" http://techwriting.info/rpsapi/v1/players/5c5cc956608ab82cb789da6b
+    example: curl -X PUT -d "played=rock" http://techwriting.io/rpsapi/v1/players/5c5cc956608ab82cb789da6b
     method: PUT
     parameters: 'name (string), played (enumerated string: rock, paper, scissors)'
   - description: Delete a specific player's name
-    example: curl -X DELETE http://techwriting.info/rpsapi/v1/players/5c5cc956608ab82cb789da6b
+    example: curl -X DELETE http://techwriting.io/rpsapi/v1/players/5c5cc956608ab82cb789da6b
     method: DELETE
     parameters: NONE
   endpoint: /players/PLAYERID
@@ -75,7 +75,7 @@ The most immediate way you can get started with rock paper scissors is to submit
 
 The next-easiest way, and the way all examples are provided, is to use cURL. The following cURL command performs the same `GET` request as the form above:
 
-    curl -X GET http://techwriting.info/rpsapi/v1/players
+    curl -X GET http://techwriting.io/rpsapi/v1/players
 
 Using cURL, you can manually call all of the endpoints in the Rock Paper Scissors API and play the game. See the [Reference Section](#api_reference) for all of the available endpoints and example cURL commands for each.
 
@@ -118,7 +118,7 @@ router.get('/v1/docs', function(req, res) {
             method: 'GET',
             parameters: 'NONE',
             description: 'The root endpoint, returns connection info',
-            example: 'curl -X GET http://techwriting.info/rpsapi/v1/'
+            example: 'curl -X GET http://techwriting.io/rpsapi/v1/'
           }
         },
         <...>
