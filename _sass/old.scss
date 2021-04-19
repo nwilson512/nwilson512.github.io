@@ -298,19 +298,24 @@ pre {
     display: flex;
   }
   .prev {
-
+    padding-right: 1.5rem;
   }
   .prev::before {
-    content:"←";
+    content:"◀";
+    // font-size: 15px;
+    // transform: scaleY(2);
     margin-right: 1rem;
     margin-top: auto;
     margin-bottom: auto;
   }
   .next {
     margin-left: auto;
+    padding-left: 1.5rem;
   }
   .next::after {
-    content:"→";
+    content:"▶";
+    // font-size: 15px;
+    // transform: scaleY(2);
     margin-left: 1rem;
     margin-top: auto;
     margin-bottom: auto;
