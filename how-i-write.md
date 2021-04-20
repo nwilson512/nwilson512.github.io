@@ -66,9 +66,11 @@ In this phase, I publish the document. Depending on the documentation infrastruc
 
 Just because a document has been published, does not mean it is perfect or requires no updates. I support my documents by reviewing analytics, responding to customer feedback, and providing content updates as the product changes.
 
+<!-- 
+
 ## Content strategy
 
-How do you design a complete document set? How do you know it's complete? You start with understanding your users. The same principles that guide product development also guide documentation development. Indeed, you should think of your documentation as part of your product. 
+How do you design a complete document set? How do you know it's complete? You start with understanding your users. The same principles that guide product development also guide documentation development. Indeed, you should think of your documentation as part of your product.  -->
 
 <!-- ### Build user profiles and write user stories
 
