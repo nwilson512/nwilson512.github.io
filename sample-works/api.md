@@ -77,7 +77,7 @@ The next-easiest way, and the way all examples are provided, is to use cURL. The
 
     curl -X GET http://techwriting.io/rpsapi/v1/players
 
-Using cURL, you can manually call all of the endpoints in the Rock Paper Scissors API and play the game. See the [Reference Section](#api_reference) for all of the available endpoints and example cURL commands for each.
+Using cURL, you can manually call all of the endpoints in the Rock Paper Scissors API and play the game. See the [Reference Section](#api-reference) for all of the available endpoints and example cURL commands for each.
 
 ## How it works
 
@@ -124,7 +124,7 @@ router.get('/v1/docs', function(req, res) {
         <...>
 ```
 
-The reference documentation for this site is automatically retrieved from this endpoint, parsed, and written into this page's YAML frontmatter using an automation script I wrote. For more information about that, including the full code, see the [API Documentation Automation](/samples/code/api-documentation-automation) section of my sample work.
+The reference documentation for this site is automatically retrieved from this endpoint, parsed, and written into this page's YAML frontmatter using an automation script I wrote. For more information about that, including the full code, see the [API Documentation Automation](/sample-works/api-documentation-automation) section of my sample work.
 
 ### API versioning
 
@@ -148,6 +148,6 @@ mongoose.connect('mongodb://XXXXXX:yyyYYYyy@zzzZZZZz.mlab.com:55555/api', { useN
 
 ### More information
 
-For more information, see the Rock Paper Scissors API's full code in the [Samples](/samples/code/rock-paper-scissors-api) section.
+For more information, see the Rock Paper Scissors API's full code in the [Samples](/sample-works/rock-paper-scissors-api) section.
 
 ## API reference
