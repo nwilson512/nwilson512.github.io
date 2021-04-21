@@ -25,12 +25,12 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
       
-      # Build the site locally for linkcheck
-      - run: bundle install
-      - run: make develop
+      # # Build the site locally for linkcheck
+      # - run: bundle install
+      # - run: make develop
       
       # run linkcheck
       - name: Check links with linkcheck
         uses: filiph/linkcheck@v2.0.15+1
         with:
-          arguments: :4000
+          arguments: https://techwriting.io/resume.html
