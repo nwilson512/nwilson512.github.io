@@ -1,3 +1,5 @@
+![Build status](https://github.com/nwilson512/nwilson512.github.io/actions/workflows/main.yml/badge.svg)
+
 # TODO
 
 * Add a better readme
