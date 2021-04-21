@@ -5,6 +5,13 @@ experience_section:
       job_title: Technical Writer
       tenure: July 2019 - Present
       focus_area:
+        - focus_area_name: Leadership
+          focus_area_list:
+            - Manage direct reports, delegate tasks, and oversee progress
+            - Create and enforce a style guide for all writers and contributors
+            - Copyedit and review all documentation changes before publishing
+            - Triage new issues and organize work into sprints
+            - Define job descriptions and hire full-time writers across multiple geos
         - focus_area_name: Product Documentation
           focus_area_list:
             - Write and maintain all documentation for Portworx products
@@ -15,13 +22,6 @@ experience_section:
             - Perform development and administrative tasks for docs.portworx.com
             - Maintain documentation toolchain and versioning
             - Document internal publication procedures
-        - focus_area_name: Leadership
-          focus_area_list:
-            - Manage direct reports, delegate tasks, and oversee progress
-            - Create and enforce a style guide for all writers and contributors
-            - Copyedit and review all documentation changes before publishing
-            - Triage new issues and organize work into sprints
-            - Define job descriptions and hire full-time writers across multiple geos
     - subsection_name: Celtra, Inc.
       job_title: Technical Writer
       tenure: July 2018 - February 2019
@@ -34,7 +34,7 @@ experience_section:
         - focus_area_name: Infrastructure
           focus_area_list:
             - Performed front end development and administrative tasks for support.celtra.com
-            - Created interactive website documentation designs
+            - Created interactive website documentation designs such as animated tables, feedback buttons and forms, and landing pages
         - focus_area_name: Video
           focus_area_list:
             - Recorded and produced supplementary support video content
@@ -82,11 +82,14 @@ experience_section:
 skills_section:
   skills_section_name: Skills
   subsection:
+    - subsection_name: Markup Languages
+      subsection_list:
+        - Markdown
+        - Asciidoc
     - subsection_name: Web Languages and Utilities
       subsection_list:
         - HTML/CSS
         - Sass
-        - UIKit
         - Javascript
     - subsection_name: Programming and Query Languages
       subsection_list:
@@ -109,6 +112,14 @@ skills_section:
         - Kubernetes
         - Google Kubernetes Engine (GKE)
         - Openshift container platform (OCP)
+    - subsection_name: Development tools
+      subsection_list:
+        - Git, GitHub
+    - subsection_name: Static Site Generators
+      subsection_list:
+        - Statamic
+        - Hugo
+        - Jekyll
 
 education_section:
   education_section_name: Education
