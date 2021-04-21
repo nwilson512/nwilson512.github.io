@@ -33,4 +33,4 @@ jobs:
       - name: Check links with linkcheck
         uses: filiph/linkcheck@v2.0.15+1
         with:
-          arguments: https://techwriting.io/resume.html
+          arguments: https://techwriting.io
