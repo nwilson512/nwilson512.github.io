@@ -1,6 +1,6 @@
 ![Link checker build status](https://github.com/nwilson512/nwilson512.github.io/actions/workflows/main.yml/badge.svg)
 
-# Readme
+# README
 
 Welcome to the repo for my [portfolio site](https://techwriting.io).
 
