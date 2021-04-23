@@ -4,7 +4,7 @@ course: CS50
 lang: C
 description: Parses an unformatted block of deleted data, looking for deleted images, and restores them.
 ---
-```
+{% highlight C %}
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -90,4 +90,4 @@ int main(int argc, char *argv[])
     // success
     return 0;
 }
-```
+{% endhighlight %}

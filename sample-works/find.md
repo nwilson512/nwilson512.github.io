@@ -4,7 +4,7 @@ course: CS50
 lang: C
 description: Looks for a matching pattern in a string.
 ---
-```
+{% highlight C %}
 #include <cs50.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -68,4 +68,4 @@ int main(int argc, string argv[])
  *
  * where needle is the value to find in a haystack of values
  */
-```
+{% endhighlight %}

@@ -3,7 +3,7 @@ title: 'Rock Paper Scissors API'
 lang: JavaScript
 description: Allows humans to play Rock Paper Scissors against the computer.
 ---
-```
+{% highlight javascript %}
 // GENERAL CONFIGURATION
 
 // call dependencies
@@ -320,4 +320,4 @@ console.log('Developers: Make API calls to localhost:' + port + '/api/v1');
 // Next Version:
 // [ ] Move play logic into its own route
 // [ ] remove put statement name gating if statement to allow user to remove name entry from the DB
-```
+{% endhighlight %}

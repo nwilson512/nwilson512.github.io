@@ -5,7 +5,7 @@ course: CS50
 lang: C
 description: Takes a string input and enciphers it using Caesar's cipher.
 ---
-~~~C
+{% highlight C %}
 #include <stdio.h>
 #include <cs50.h>
 #include <string.h>
@@ -83,4 +83,4 @@ Design and implement a program, caesar, that encrypts messages using Caesar’s 
     * Your program must preserve case: capitalized letters, though rotated, must remain capitalized letters; lowercase letters, though rotated, must remain lowercase letters.
     * After outputting ciphertext, your program should exit by returning 0 from main.
 */
-~~~
+{% endhighlight %}

@@ -4,8 +4,7 @@ course: CS50
 lang: C
 description: Resizes an image.
 ---
-```
-
+{% highlight C %}
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -124,4 +123,4 @@ int main(int argc, char *argv[])
     // success
     return 0;
 }
-```
+{% endhighlight %}

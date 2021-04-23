@@ -4,7 +4,7 @@ lang: C
 course: CS50
 description: Draws a 2-dimensional pyramid into the console.
 ---
-```
+{% highlight C %}
 #include <stdio.h>
 #include <float.h>
 #include <limits.h>
@@ -86,4 +86,4 @@ Thoughts:
 - I'm still searching for a way to increment the spaces and decrement the hashes using only one variable. It may not be possible to do that. I could create an array to hold both the original value and the counter value. I think doing so would keep them adjecent in memory.
 - I'm trying to use "count" and "height" as both variables in the main function and parameters in the functions themselves. I don't think this is possible.
 */
-```
+{% endhighlight %}

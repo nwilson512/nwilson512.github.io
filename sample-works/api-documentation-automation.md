@@ -3,7 +3,7 @@ title: 'API Documentation Automation'
 lang: python
 description: Fetches API documentation data in JSON and parses it into YAML, then writes that into the frontmatter of the API documentation page. 
 ---
-```
+{% highlight python %}
 # fetch needed packages and modules
 
 # we'll use this to call the API using HTTP
@@ -72,4 +72,4 @@ indexFile.close()
 
 # indicate completion
 print('docUpdate completed')
-```
+{% endhighlight %}

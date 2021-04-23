@@ -4,7 +4,7 @@ course: CS50
 lang: C
 description: Takes a string input and enciphers it using Viginere's cipher.
 ---
-```
+{% highlight C %}
 #include <stdio.h>
 #include <cs50.h>
 #include <string.h>
@@ -85,4 +85,4 @@ int main(int argc, string argv[])                   // take the cipher integer a
     printf("\n");
     return 0;
 }
-```
+{% endhighlight %}
