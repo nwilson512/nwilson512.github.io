@@ -2,4 +2,4 @@
 layout: home
 ---
 
-<h1 class="landingPage">🔴 The rock paper scissors API is offline.</h1>
+<div class="landingPage note">🔴 The rock paper scissors API is offline.</div>
