@@ -10,7 +10,7 @@ next-page:
   title: Create a new virtual host configuration
 ---
 
-Many different web servers can serve Statamic, most notably, Apache and NGINX. Debian includes a running Apache web server by default, so this document will provide instructions for Apache only.
+Statamic is capable of being served from many different web servers, most notably, Apache and NGINX. Debian includes a running Apache web server by default, so this document provides instructions for Apache only.
 
 **Perform the following steps to configure Apache on Debian to serve your Statamic site:**
 

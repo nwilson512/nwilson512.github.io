@@ -100,7 +100,7 @@ If you're not installing a new Statamic site, but instead cloning an existing si
 
 {{# It may not be necessary to run the installer from a cloned site #}}
 
-8. In your browser, run the statamic installer by navigating to:
+8. In your browser, run the Statamic installer by navigating to:
 
     ```
     http://your_site.test/installer.php

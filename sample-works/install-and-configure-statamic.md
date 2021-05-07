@@ -91,7 +91,7 @@ The instructions in this document expand on the [Statamic installation documenta
     valet restart
     ```
 
-6. In your browser, run the statamic installer by navigating to:
+6. In your browser, run the Statamic installer by navigating to:
 
     ```
     http://your_site.test/installer.php

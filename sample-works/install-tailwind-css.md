@@ -22,7 +22,7 @@ Tailwind is not included with Statamic's default theme or installation, so you m
 
 	![](/assets/img/tailwindAddon.png)
 
-4. Create a new theme. Navigate to your primary statamic directory, in my case, that’s just under `/Statamic/statamin/`:
+4. Create a new theme. Navigate to your primary Statamic directory, in my case, that’s just under `/Statamic/statamin/`:
 
 	```
 	cd /Statamic/statamin
