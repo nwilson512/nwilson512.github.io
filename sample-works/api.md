@@ -51,7 +51,7 @@ api_calls:
 
 ## The Rock Paper Scissors API
 
-the Rock Paper Scissors API (RPSAPI) is a REST API that allows you to play rock paper scissors against a computer player. Using the RPSAPI, you can revisit a proven and universal method of dispute resolution from your childhood. Although, I don't recommend using this to make any important life decisions.
+The Rock Paper Scissors API (RPSAPI) is a REST API that allows you to play rock paper scissors against a computer player. Using the RPSAPI, you can revisit a proven and universal method of dispute resolution from your childhood. Although, I don't recommend using this to make any important life decisions.
 
 Within the API, you can do the following:
 
