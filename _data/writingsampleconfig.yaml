@@ -20,4 +20,5 @@ toc:
         link: /sample-works/create-a-statamic-web-server-on-google-cloud-platform/configure-apache
       - page: Create a new virtual host configuration
         link: /sample-works/create-a-statamic-web-server-on-google-cloud-platform/create-a-new-virtual-host-configuration
-        
+  - title: Vertica on AWS backup and restore guide
+    link: https://www.vertica.com/docs/8.1.x/HTML/index.htm#Authoring/BackupAndRestoreVerticaOnAWS/Introduction.htm
