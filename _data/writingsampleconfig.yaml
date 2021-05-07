@@ -1,10 +1,6 @@
 toc:
   - title: PX-Backup documentation
     link: https://1.0.backup.docs.portworx.com
-  - title: Portworx Pool caching
-    link: https://docs.portworx.com/concepts/pool-caching/
-  - title: Portworx volume placement strategies
-    link: https://docs.portworx.com/portworx-install-with-kubernetes/storage-operations/create-pvcs/volume-placement-strategies/
   - title: The Rock paper scissors API
     link: /sample-works/api
   - title: Deploy a static website on Google Cloud Platform
