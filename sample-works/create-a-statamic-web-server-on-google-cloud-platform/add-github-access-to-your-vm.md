@@ -20,7 +20,7 @@ Just as you added your development computer to your GitHub repo, you must also a
     ssh user@yourVMip
     ```
 
-2. Generate a private key on your server. This command will place a new key pair in the default location:
+2. Generate a private key on your server. This command places a new key pair in the default location:
 
     ```
     ssh-keygen -t rsa

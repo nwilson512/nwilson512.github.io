@@ -2,7 +2,7 @@
 title: 'Build Sass themes with Sass Autocompile'
 type: task
 ---
-before you can build your css files using the Sass Autocompile plugin, you must first install and configure it.
+before you can build your CSS files using the Sass Autocompile plugin, you must first install and configure it.
 
 **Perform the following steps to install and configure the Sass Autocompile plugin:**
 

@@ -51,7 +51,7 @@ api_calls:
 
 ## The Rock Paper Scissors API
 
-the Rock Paper Scissors API (RPSAPI) is a REST API that allows users to play rock paper scissors against a computer player. This allows users to revisit a proven and universal method of dispute resolution from their childhoods. Although, I don't recommend using this to make any important life decisions.
+the Rock Paper Scissors API (RPSAPI) is a REST API that allows you to play rock paper scissors against a computer player. Using the RPSAPI, you can revisit a proven and universal method of dispute resolution from your childhood. Although, I don't recommend using this to make any important life decisions.
 
 Within the API, you can do the following:
 
@@ -73,7 +73,7 @@ The most immediate way you can get started with rock paper scissors is to submit
   <input class="getPlayersButton" type="submit" name="submit" value="Get all players"/>
 </form>
 
-The next-easiest way, and the way all examples are provided, is to use cURL. The following cURL command performs the same `GET` request as the form above:
+The next-easiest way to submit requests, and the way this document provides all examples, is to use cURL. The following cURL command performs the same `GET` request as the form above:
 
     curl -X GET http://techwriting.io/rpsapi/v1/players
 
@@ -81,7 +81,7 @@ Using cURL, you can manually call all of the endpoints in the Rock Paper Scissor
 
 ## How it works
 
-The Rock Paper Scissors API is written in Javascript, and uses Express to handle requests and a Mongoose database to store player and game data.
+I wrote the Rock Paper Scissors API in Javascript, and it uses Express to handle requests and a Mongoose database to store player and game data.
 
 The following diagram illustrates the general architecture of this API:
 
@@ -96,7 +96,7 @@ The following sections describe some of the more noteworthy details of how the A
 
 ### Computer hand generation
 
-The computer's hand is generated using a pseudorandom (in a generous sense of the term) algorithm based on the current time in seconds.
+The RPSAPI generates the computer's using a pseudorandom (in a generous sense of the term) algorithm based on the current time in seconds.
 
 ```
 // use time for psuedorandom hand generation, take the modulus of 3 to select one of 3 hands
@@ -106,7 +106,7 @@ The computer's hand is generated using a pseudorandom (in a generous sense of th
 
 ### Documentation endpoint
 
-Documentation for this API is written into the server.js source code and can be accessed at its own endpoint. The following code snippet shows the router get function, the endpoint string, and response JSON:
+I wrote the API documentation into the server.js source code, and you can access it at its own endpoint. The following code snippet shows the router get function, the endpoint string, and response JSON:
 
 ```
 router.get('/v1/docs', function(req, res) {
@@ -124,11 +124,11 @@ router.get('/v1/docs', function(req, res) {
         <...>
 ```
 
-The reference documentation for this site is automatically retrieved from this endpoint, parsed, and written into this page's YAML frontmatter using an automation script I wrote. For more information about that, including the full code, see the [API Documentation Automation](/sample-works/api-documentation-automation) section of my sample work.
+I wrote an API documentation automation script, which automatically retrieves the reference documentation for this site from this endpoint, parseses, and writes the data into this page's YAML frontmatter. For more information, including the full code, see the [API Documentation Automation](/sample-works/api-documentation-automation) section of my sample work.
 
 ### API versioning
 
-This API features rudimentary versioning support through manually prepended strings prepared for the router. This allows me to develop more sophisticated versioning code at a later date, while not impacting the end user experience.
+This API features rudimentary versioning support through manually prepended strings prepared for the router. This allows me to develop more sophisticated versioning code at a later date while not impacting the end user experience.
 
 ```
 router.get('/v1/docs' <...>
@@ -136,7 +136,7 @@ router.get('/v1/docs' <...>
 
 ### Database
 
-Database access is handled through the mongoose library. The database itself is hosted by the mlab cloud storage provider. This reduces the complexity of administration, and allows me to query the same database from both development and production versions of my API.
+A Mongoose library handles database access. The database itself is hosted by the Mlab cloud storage provider. This reduces the complexity of administration, and allows me to query the same database from both development and production versions of my API.
 
 ```
 // open a connection with mongoose DB at mLab. This is not a production solution.

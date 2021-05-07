@@ -18,9 +18,9 @@ next-page:
 * Authorization
 * Accounting -->
 
-Authentication with your VM is established through the use of encrypted key pairs. Before you can connect to your VM from outside your cloud console, you must create and associate a key that identifies you.
+Your VM authenticates with other components through encrypted key pairs. Before you can connect to your VM from outside your cloud console, you must create and associate a key that identifies you.
 
-There are two ways to manage your keys on GCP: You can use the [OS Login](https://cloud.google.com/compute/docs/oslogin/) Google service, or you can manage keys manually in the project metadata [manually](https://cloud.google.com/compute/docs/instances/adding-removing-ssh-keys).
+You can manage your keys on GCP in one of two ways: you can use the [OS Login](https://cloud.google.com/compute/docs/oslogin/) Google service, or you can manage keys manually in the project metadata [manually](https://cloud.google.com/compute/docs/instances/adding-removing-ssh-keys).
 
 <div class="note">
 CAUTION: I strongly recommend following Google's advice and using <a href="https://cloud.google.com/compute/docs/oslogin/">OS Login</a> for production servers.
@@ -28,13 +28,13 @@ CAUTION: I strongly recommend following Google's advice and using <a href="https
 
 **Perform the following steps to create a key pair and manually add a key to a GCP Project:**
 
-1. Generate an RSA key pair, we'll use the default name for this one:
+1. Generate an RSA key pair, these examples use the default name:
 
     ```
     ssh-keygen -t rsa
     ```
 
-    This will create a public/private key pair, named "id_rsa" and place it in a hidden key directory on your Computer.
+    This creates a public/private key pair, named "id_rsa" and places it in a hidden key directory on your computer.
 
 2. Change directories to your key directory:
 

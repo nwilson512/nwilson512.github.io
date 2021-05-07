@@ -2,7 +2,7 @@
 title: 'Build new Sass partials'
 type: concept
 ---
-Once you've set up the Sass Auotcompiler utility to work with your statamic site you're ready to configure partials.
+Once you've set up the Sass Auotcompiler utility to work with your statamic site, you're ready to configure partials.
 
 By default, the Sass Auotcompiler utility looks for partials to import within the same directory as your current .scss file. As a best practice, prepend partials with an underscore and place them in subdirectories under the directory your Sass file is in.
 

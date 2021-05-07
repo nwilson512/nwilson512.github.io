@@ -10,7 +10,7 @@ next-page:
   title: Configure Apache
 ---
 
-Once you've added your web server's key to GitHub, you can clone and pull from the repository onto your webserver. By default, the Debian operating system includes the Apache webserver. We'll use Apache to serve our websites to visitors.
+Once you've added your web server's key to GitHub, you can clone and pull from the repository onto your webserver. By default, the Debian operating system includes the Apache webserver, and these instructions use Apache to serve your website to visitors.
 
 **Perform the following steps to clone the repository containing your Statamic website into your web server:**
 
