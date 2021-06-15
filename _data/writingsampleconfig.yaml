@@ -22,3 +22,14 @@ toc:
         link: /sample-works/create-a-statamic-web-server-on-google-cloud-platform/create-a-new-virtual-host-configuration
   - title: Vertica on AWS backup and restore guide
     link: https://www.vertica.com/docs/8.1.x/HTML/index.htm#Authoring/BackupAndRestoreVerticaOnAWS/Introduction.htm
+    pages: 
+      - page: K-Safe cluster configuration
+        link: https://www.vertica.com/docs/8.1.x/HTML/index.htm#Authoring/BackupAndRestoreVerticaOnAWS/SingleNodeFailure.htm
+      - page: Full backup
+        link: https://www.vertica.com/docs/8.1.x/HTML/index.htm#Authoring/BackupAndRestoreVerticaOnAWS/FullBackup.htm
+      - page: Restore from a full backup
+        link: https://www.vertica.com/docs/8.1.x/HTML/index.htm#Authoring/BackupAndRestoreVerticaOnAWS/RestoreFromFullBackup.htm
+      - page: Hard-link backups on AWS RAID-0
+        link: https://www.vertica.com/docs/8.1.x/HTML/index.htm#Authoring/BackupAndRestoreVerticaOnAWS/HardLinkBackupOnAWSRAID.htm
+      - page: Restore from a hard-link backup
+        link: https://www.vertica.com/docs/8.1.x/HTML/index.htm#Authoring/BackupAndRestoreVerticaOnAWS/RestoreFromHardLinkBackup.htm
