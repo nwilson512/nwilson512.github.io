@@ -5,4 +5,4 @@
 layout: home
 ---
 
-<h2 class="landingPage">Software <span class="lookAtMe">technical writer</span> and <span class="andMe">team lead</span> with over <span class="lookAtMe">8 years</span> of experience at some of the most prominent software companies on the planet.</h2>
+<!-- <h2 class="landingPage">Software <span class="lookAtMe">technical writer</span> and <span class="andMe">team lead</span><br/>Over <span class="lookAtMe">8 years</span> of experience at some of the most prominent software companies on the planet<br/>Proven through a successful acquisition from Portworx to Pure Storage</h2> -->

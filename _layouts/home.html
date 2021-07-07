@@ -2,10 +2,106 @@
 layout: main
 ---
 
-<div class="home">
+<div class="home" style="max-width: 400px; margin-left:auto; margin-right: auto; margin-bottom: 4rem;">
   {%- if page.title -%}
     <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%}
+
+  <div class="headshot"
+    style="
+    margin-top: 2rem;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 10rem;
+    height: 10rem;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    ">
+    <img style="
+    /* display: inline; */
+    margin-left: auto;
+    margin-right: auto;
+    width: 101%;
+    border: none;
+    " 
+    src="/assets/img/headshot.jpeg"/>
+  </div>
+  <div class="home-name" style="
+    margin-top: 2rem;
+    display: none;">
+    <h1 style="
+      text-align: center;">
+      Nathan Wilson</h1>
+  </div>
+  <div class="intro-description" style="
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    ">
+    <p class="">Software <strong class="">technical writer</strong> and <strong class="">team lead</strong> with over <strong class="">8 years</strong> of experience at some of the most prominent companies on the planet.</p>
+    <!-- <p>Specializing in developer documentation for Kubernetes, cloud, and startups</p> -->
+  </div>
+  <div class="home-grid"
+    style="
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* grid-template-rows: 1fr 1fr 1fr 1fr; */
+    gap: 10px;
+    ">
+  <div class="home-contact" style="
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column: 1;
+    background-color: #f3f3f3;
+    border-radius: .5rem 0 0 0;
+    padding: 1rem;">
+    <p>Contact</p>
+    <ul style="
+      list-style: none;
+      margin-left: 0;
+      ">
+      <li>
+        <a href="mailto:nathan@techwriting.io">Email</a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/in/nwilson512">LinkedIn</a>
+      </li>
+    </ul>
+  </div>
+  <div class="home-writing-samples" style="
+    grid-row: 1 / 1;
+    grid-column: 2;
+    background-color: #f3f3f3;
+    border-radius: 0 .5rem 0 0;
+    padding: 1rem;">
+    <a href="/sample-works/#writing-samples">Writing samples</a>
+  </div>
+  <div class="home-code-samples" style="
+    grid-row: 2 / 2;
+    grid-column: 2;
+    background-color: #f3f3f3;
+    padding: 1rem;
+    ">
+    <a href="/sample-works/#code-samples">Code samples</a>
+  </div>
+  <div class="home-resume" style="
+    grid-row: 3;
+    grid-column: 1;
+    background-color: #f3f3f3;
+    border-radius: .5rem;
+    border-radius: 0 0 0 .5rem;
+    padding: 1rem;">
+    <a href="/resume/">Résumé</a>
+  </div>
+
+  <div class="home-github" style="
+    grid-row: 3;
+    grid-column: 2;
+    background-color: #f3f3f3;
+    border-radius: 0 0 .5rem 0;
+    padding: 1rem;">
+    <a href="https://github.com/nwilson512/nwilson512.github.io">View on Github</a>
+  </div>
 
   {{ content }}
 
