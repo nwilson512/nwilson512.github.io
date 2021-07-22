@@ -48,6 +48,28 @@ layout: main
     /* grid-template-rows: 1fr 1fr 1fr 1fr; */
     gap: 10px;
     ">
+
+  <script>
+    const cipher = [110,  98, 106, 109, 117, 112,  59, 111,  98, 117, 105,  98, 111,  65, 117, 102, 100, 105, 120, 115, 106, 117, 106, 111, 104,  47, 106, 112 ];
+
+    // console.log(cipher);
+    function decipherFunc() {
+      for (let index = 0; index < cipher.length; index++) {
+      var element = cipher[index];
+      element --;
+      var element = String.fromCharCode(element);
+      cipher[index] = element;
+      }
+
+      // console.log(cipher);
+      // console.log(cipher.join(''));
+      decipher = cipher.join('');
+      foo = document.getElementById("email")
+      foo.href = decipher;
+    }
+    
+  </script>
+
   <div class="home-contact" style="
     grid-row-start: 1;
     grid-row-end: 3;
@@ -60,6 +82,9 @@ layout: main
       list-style: none;
       margin-left: 0;
       ">
+      <li>
+        <a id="email" href="" onclick=decipherFunc()>Email</a>
+      </li>
       <li>
         <a href="https://www.linkedin.com/in/nwilson512">LinkedIn</a>
       </li>
